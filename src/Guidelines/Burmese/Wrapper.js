@@ -5,38 +5,38 @@ const Wrapper = ({ children }) => {
   const menuItems = [
     {
       label: 'Guiding Principle',
-      path: '/armenian/guiding_principles',
+      path: '/burmese/guiding_principles',
     },
     {
       label: 'Long form generic rules',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/longform_generic_rules' },
+        { label: 'Overview', path: '/burmese/longform_generic_rules' },
         {
           label: 'Unintelligible or foreign or singing',
           path:
-            '/armenian/longform_generic_rules#unintelligible-or-foreign-or-singing',
+            '/burmese/longform_generic_rules#unintelligible-or-foreign-or-singing',
         },
         {
           label: 'Segmentation',
-          path: '/armenian/longform_generic_rules#segmentation',
+          path: '/burmese/longform_generic_rules#segmentation',
         },
         {
           label: 'Speaker labelling',
-          path: '/armenian/longform_generic_rules#speaker-labeling',
+          path: '/burmese/longform_generic_rules#speaker-labeling',
         },
         {
           label: 'Audio labels',
-          path: '/armenian/longform_generic_rules#audio-labels',
+          path: '/burmese/longform_generic_rules#audio-labels',
         },
-        { label: 'Pii', path: '/armenian/longform_generic_rules#pii' },
+        { label: 'Pii', path: '/burmese/longform_generic_rules#pii' },
       ],
     },
     {
       label: 'Transcription Qualtiy',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/transcription_quality' },
+        { label: 'Overview', path: '/burmese/transcription_quality' },
         { label: 'Typo', path: '#typo' },
         { label: 'Context error', path: '#context-error' },
         { label: 'Add or missing word', path: '#adding-missing-words' },
@@ -48,10 +48,10 @@ const Wrapper = ({ children }) => {
       label: 'Punctuation',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/punctuation' },
+        { label: 'Overview', path: '/burmese/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-versus-sentences',
+          path: '#fragment-vrsus-sentences',
         },
         { label: 'Commas', path: '#commas' },
         { label: 'Innotation marks', path: '#intonation-marks' },
@@ -64,7 +64,7 @@ const Wrapper = ({ children }) => {
       label: 'Format',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/format' },
+        { label: 'Overview', path: '/burmese/format' },
         { label: 'Number', path: '#number' },
         { label: 'Date and time', path: '#currency-and-unit' },
         { label: 'Commas', path: '#date-and-time' },
@@ -77,7 +77,7 @@ const Wrapper = ({ children }) => {
       label: 'Agreed Spelling',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/agreed_spelling' },
+        { label: 'Overview', path: '/burmese/agreed_spelling' },
         { label: 'Spelling out ', path: '#spelling-out' },
         { label: 'Proper names', path: '#interjection' },
         { label: 'Brand and Product', path: '#brand-and-product' },
@@ -89,7 +89,7 @@ const Wrapper = ({ children }) => {
       label: 'Diffiicult Utterances',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/difficult_utterances' },
+        { label: 'Overview', path: '/burmese/difficult_utterances' },
         { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
         {
           label: 'Hesitations and trancations',
@@ -102,13 +102,13 @@ const Wrapper = ({ children }) => {
         { label: 'Foreign Language', path: '#foreign-language' },
         {
           label: 'Accents ',
-          path: '/armenian/difficult_utterances#accents',
+          path: '/burmese/difficult_utterances#accents',
         },
       ],
     },
   ]
   return (
-    <MasterPage menuItems={menuItems} appTitle="armenian">
+    <MasterPage menuItems={menuItems} appTitle="burmese">
       {children}
     </MasterPage>
   )

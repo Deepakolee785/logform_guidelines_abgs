@@ -37,7 +37,7 @@ const LongFormGenericRules = () => {
                 transcribing the task once the 21st speaker is heard.
               </p>
               <div id="unintelligible-or-foreign-or-singing">
-                <h2 className={styles.block_14}>
+                <h2 className={'heading'}>
                   Unintelligible or foreign or singing
                 </h2>
                 <p className={'text'}>
@@ -58,69 +58,69 @@ const LongFormGenericRules = () => {
                   If the singing is in a foreign language, select the Foreign
                   Speech label.
                 </p>
-                <h2 id="segmentation" className={styles.block_14}>
-                  Segmentation
-                </h2>
-                <p className={'text'}>
-                  All speaker segment boundaries should be accurate with at
-                  least 100ms precision.
-                </p>
-                <p className={'text'}>
-                  Speaker turns should not contain pauses in speech that are
-                  longer than 0.5 seconds. If a speaker does pause their speech
-                  for longer than 0.5 seconds, end the speaker turn before the
-                  pause then create a new turn for when the speaker resumes
-                  talking.
-                </p>
-                <p className={'text'}>
-                  Speaker turns should not be longer than 30 seconds. If a
-                  single speaker talks for more than 30 consecutive seconds
-                  without taking a 0.5 second pause, then end the turn at the 30
-                  second mark and begin a new turn.
-                </p>
-                <h2 id="speaker-labelling" className={styles.block_14}>
-                  Speaker labeling
-                </h2>
-                <p className={'text'}>
-                  All speaker labels should be consistently formatted. Speaker
-                  labels should always: be in all lowercase, be spelled
-                  correctly, and should not contain underscores or hyphens. Only
-                  transcribe up to the 20th unique speaker.
-                </p>
-                <CorrrectIncorrect
-                  correctText="speaker 1"
-                  incorrectText="Speaker 1"
-                />
-                <CorrrectIncorrect
-                  correctText="pre recorded speaker 1"
-                  incorrectText="pre-recorded speaker_1"
-                />
-                <CorrrectIncorrect correctText="unidentifiable speaker" />
-                {/*  */}
-                <ul>
-                  <li>
-                    'speaker #' Used for different speakers in the audio.
-                    Includes a number that corresponds to each different
-                    speaker.
-                  </li>
-                  <li>
-                    'pre recorded speaker #' Used when there is speech coming
-                    from a machine. Includes a number that corresponds to each
-                    different pre recorded speaker.
-                  </li>
-                  <li>
-                    'unidentifiable speaker' Used when you cannot identify who
-                    the speaker is. Does not ever include numbers.
-                  </li>
-                  <li>
-                    'speaker Tom' Used when the name of a speaker becomes known.
-                    The names of speakers should always be capitalized. You can
-                    use first and last names. (Note: adding speaker names will
-                    be allowed for some projects but not others. In tool
-                    validators will indicate whether or not you can submit a
-                    speaker name.)
-                  </li>
-                </ul>
+                <div id="segmentation">
+                  <h2 className={'heading'}>Segmentation</h2>
+                  <p className={'text'}>
+                    All speaker segment boundaries should be accurate with at
+                    least 100ms precision.
+                  </p>
+                  <p className={'text'}>
+                    Speaker turns should not contain pauses in speech that are
+                    longer than 0.5 seconds. If a speaker does pause their
+                    speech for longer than 0.5 seconds, end the speaker turn
+                    before the pause then create a new turn for when the speaker
+                    resumes talking.
+                  </p>
+                  <p className={'text'}>
+                    Speaker turns should not be longer than 30 seconds. If a
+                    single speaker talks for more than 30 consecutive seconds
+                    without taking a 0.5 second pause, then end the turn at the
+                    30 second mark and begin a new turn.
+                  </p>
+                </div>
+                <div id="speaker-labeling">
+                  <h2 className={'heading'}>Speaker labeling</h2>
+                  <p className={'text'}>
+                    All speaker labels should be consistently formatted. Speaker
+                    labels should always: be in all lowercase, be spelled
+                    correctly, and should not contain underscores or hyphens.
+                    Only transcribe up to the 20th unique speaker.
+                  </p>
+                  <CorrrectIncorrect
+                    correctText="speaker 1"
+                    incorrectText="Speaker 1"
+                  />
+                  <CorrrectIncorrect
+                    correctText="pre recorded speaker 1"
+                    incorrectText="pre-recorded speaker_1"
+                  />
+                  <CorrrectIncorrect correctText="unidentifiable speaker" />
+                  {/*  */}
+                  <ul>
+                    <li>
+                      'speaker #' Used for different speakers in the audio.
+                      Includes a number that corresponds to each different
+                      speaker.
+                    </li>
+                    <li>
+                      'pre recorded speaker #' Used when there is speech coming
+                      from a machine. Includes a number that corresponds to each
+                      different pre recorded speaker.
+                    </li>
+                    <li>
+                      'unidentifiable speaker' Used when you cannot identify who
+                      the speaker is. Does not ever include numbers.
+                    </li>
+                    <li>
+                      'speaker Tom' Used when the name of a speaker becomes
+                      known. The names of speakers should always be capitalized.
+                      You can use first and last names. (Note: adding speaker
+                      names will be allowed for some projects but not others. In
+                      tool validators will indicate whether or not you can
+                      submit a speaker name.)
+                    </li>
+                  </ul>
+                </div>
               </div>
               <div id="audio-labels">
                 <h2 className={'heading'}>Audio labels</h2>
@@ -198,10 +198,10 @@ const LongFormGenericRules = () => {
                 <p className={'text'}>
                   See the below list for all valid PII items
                 </p>
-                <div className={styles.calibre1}>
-                  <div className={styles.block_18}>
+                <div className={`${styles.calibre1} blue-text`}>
+                  <div className={styles.block_19}>
                     <span className={styles.bullet_1}>●&nbsp;</span>
-                    <span>NAME: First and/or Last name</span>
+                    <span className={'text'}>NAME: First and/or Last name</span>
                   </div>
                   <div className={styles.block_19}>
                     <span className={styles.bullet_1}>●&nbsp;</span>

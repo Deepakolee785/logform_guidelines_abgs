@@ -5,38 +5,38 @@ const Wrapper = ({ children }) => {
   const menuItems = [
     {
       label: 'Guiding Principle',
-      path: '/armenian/guiding_principles',
+      path: '/bangla/guiding_principles',
     },
     {
       label: 'Long form generic rules',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/longform_generic_rules' },
+        { label: 'Overview', path: '/bangla/longform_generic_rules' },
         {
           label: 'Unintelligible or foreign or singing',
           path:
-            '/armenian/longform_generic_rules#unintelligible-or-foreign-or-singing',
+            '/bangla/longform_generic_rules#unintelligible-or-foreign-or-singing',
         },
         {
           label: 'Segmentation',
-          path: '/armenian/longform_generic_rules#segmentation',
+          path: '/bangla/longform_generic_rules#segmentation',
         },
         {
           label: 'Speaker labelling',
-          path: '/armenian/longform_generic_rules#speaker-labeling',
+          path: '/bangla/longform_generic_rules#speaker-labeling',
         },
         {
           label: 'Audio labels',
-          path: '/armenian/longform_generic_rules#audio-labels',
+          path: '/bangla/longform_generic_rules#audio-labels',
         },
-        { label: 'Pii', path: '/armenian/longform_generic_rules#pii' },
+        { label: 'Pii', path: '/bangla/longform_generic_rules#pii' },
       ],
     },
     {
       label: 'Transcription Qualtiy',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/transcription_quality' },
+        { label: 'Overview', path: '/bangla/transcription_quality' },
         { label: 'Typo', path: '#typo' },
         { label: 'Context error', path: '#context-error' },
         { label: 'Add or missing word', path: '#adding-missing-words' },
@@ -48,10 +48,10 @@ const Wrapper = ({ children }) => {
       label: 'Punctuation',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/punctuation' },
+        { label: 'Overview', path: '/bangla/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-versus-sentences',
+          path: '#fragment-vrsus-sentences',
         },
         { label: 'Commas', path: '#commas' },
         { label: 'Innotation marks', path: '#intonation-marks' },
@@ -64,7 +64,7 @@ const Wrapper = ({ children }) => {
       label: 'Format',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/format' },
+        { label: 'Overview', path: '/bangla/format' },
         { label: 'Number', path: '#number' },
         { label: 'Date and time', path: '#currency-and-unit' },
         { label: 'Commas', path: '#date-and-time' },
@@ -77,7 +77,7 @@ const Wrapper = ({ children }) => {
       label: 'Agreed Spelling',
       path: '',
       subMenus: [
-        { label: 'Overview', path: '/armenian/agreed_spelling' },
+        { label: 'Overview', path: '/bangla/agreed_spelling' },
         { label: 'Spelling out ', path: '#spelling-out' },
         { label: 'Proper names', path: '#interjection' },
         { label: 'Brand and Product', path: '#brand-and-product' },
@@ -85,30 +85,30 @@ const Wrapper = ({ children }) => {
         { label: 'Multiple spellings ', path: '#multiple-spelling' },
       ],
     },
-    {
-      label: 'Diffiicult Utterances',
-      path: '',
-      subMenus: [
-        { label: 'Overview', path: '/armenian/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
-        {
-          label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
-        },
-        {
-          label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
-        },
-        { label: 'Foreign Language', path: '#foreign-language' },
-        {
-          label: 'Accents ',
-          path: '/armenian/difficult_utterances#accents',
-        },
-      ],
-    },
+    // {
+    //   label: 'Diffiicult Utterances',
+    //   path: '',
+    //   subMenus: [
+    //     { label: 'Overview', path: '/bangla/difficult_utterances' },
+    //     { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+    //     {
+    //       label: 'Hesitations and trancations',
+    //       path: '#hesitations-and-truncations',
+    //     },
+    //     {
+    //       label: 'Background and foreground speech',
+    //       path: '#background-and-foreground-speech',
+    //     },
+    //     { label: 'Foreign Language', path: '#foreign-language' },
+    //     {
+    //       label: 'Accents ',
+    //       path: '/bangla/difficult_utterances#accents',
+    //     },
+    //   ],
+    // },
   ]
   return (
-    <MasterPage menuItems={menuItems} appTitle="armenian">
+    <MasterPage menuItems={menuItems} appTitle="bangla">
       {children}
     </MasterPage>
   )

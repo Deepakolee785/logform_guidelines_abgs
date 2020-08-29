@@ -11,7 +11,7 @@ import {
   DifficultUtterances,
 } from './Guidelines/nl_nl_test_set'
 
-//nepali
+//uk_ua
 import {
   GuidingPrinciplesUK_UA,
   LongFormGenericRulesUK_UA,
@@ -43,6 +43,41 @@ import {
   PunctuationArmenian,
   TranscriptionQualityArmenian,
 } from './Guidelines/Armenian'
+
+// Bangla
+import {
+  AgreedSpellingBangla,
+  DifficultUtterancesBangla,
+  FormatBangla,
+  GuidingPrinciplesBangla,
+  LongFormGenericRulesBangla,
+  PunctuationBangla,
+  TranscriptionQualityBangla,
+} from './Guidelines/Bangla'
+
+// Belarusian
+
+import {
+  AgreedSpellingBelarusian,
+  DifficultUtterancesBelarusian,
+  FormatBelarusian,
+  GuidingPrinciplesBelarusian,
+  LongFormGenericRulesBelarusian,
+  PunctuationBelarusian,
+  TranscriptionQualityBelarusian,
+} from './Guidelines/Belarusian'
+
+// Burmese
+
+import {
+  AgreedSpellingBurmese,
+  DifficultUtterancesBurmese,
+  FormatBurmese,
+  GuidingPrinciplesBurmese,
+  LongFormGenericRulesBurmese,
+  PunctuationBurmese,
+  TranscriptionQualityBurmese,
+} from './Guidelines/Burmese'
 
 import Home from './Home'
 
@@ -82,7 +117,6 @@ const App = () => {
           path="/nl_nl_test_set/difficult_utterances"
           component={DifficultUtterances}
         />
-
         {/* uk_ul routes */}
         <Route
           path="/uk_ua_test_set/guiding_principles"
@@ -109,7 +143,6 @@ const App = () => {
           component={DifficultUtterancesUK_UA}
         />
         <Route path="/uk_ua_test_set/format" component={FormatUK_UA} />
-
         {/* nepali routes */}
         <Route
           path="/nepali/guiding_principles"
@@ -133,9 +166,7 @@ const App = () => {
           component={DifficultUtterancesNepali}
         />
         <Route path="/nepali/format" component={FormatNepali} />
-
         {/* Armenian routes */}
-
         <Route
           path="/armenian/guiding_principles"
           component={GuidingPrinciplesArmenian}
@@ -158,6 +189,78 @@ const App = () => {
           component={DifficultUtterancesArmenian}
         />
         <Route path="/armenian/format" component={FormatArmenian} />
+        {/* Bangla routes */}
+        <Route
+          path="/bangla/guiding_principles"
+          component={GuidingPrinciplesBangla}
+        />
+        <Route
+          path="/bangla/longform_generic_rules"
+          component={LongFormGenericRulesBangla}
+        />
+        <Route
+          path="/bangla/transcription_quality"
+          component={TranscriptionQualityBangla}
+        />
+        <Route path="/bangla/punctuation" component={PunctuationBangla} />
+        <Route
+          path="/bangla/agreed_spelling"
+          component={AgreedSpellingBangla}
+        />
+        <Route
+          path="/bangla/difficult_utterances"
+          component={DifficultUtterancesBangla}
+        />
+        <Route path="/bangla/format" component={FormatBangla} />
+        {/* Belarusian routes */}
+        <Route
+          path="/belarusian/guiding_principles"
+          component={GuidingPrinciplesBelarusian}
+        />
+        <Route
+          path="/belarusian/longform_generic_rules"
+          component={LongFormGenericRulesBelarusian}
+        />
+        <Route
+          path="/belarusian/transcription_quality"
+          component={TranscriptionQualityBelarusian}
+        />
+        <Route
+          path="/belarusian/punctuation"
+          component={PunctuationBelarusian}
+        />
+        <Route
+          path="/belarusian/agreed_spelling"
+          component={AgreedSpellingBelarusian}
+        />
+        <Route
+          path="/belarusian/difficult_utterances"
+          component={DifficultUtterancesBelarusian}
+        />
+        <Route path="/belarusian/format" component={FormatBelarusian} />
+        {/* Burmese routes */}
+        <Route
+          path="/burmese/guiding_principles"
+          component={GuidingPrinciplesBurmese}
+        />
+        <Route
+          path="/burmese/longform_generic_rules"
+          component={LongFormGenericRulesBurmese}
+        />
+        <Route
+          path="/burmese/transcription_quality"
+          component={TranscriptionQualityBurmese}
+        />
+        <Route path="/burmese/punctuation" component={PunctuationBurmese} />
+        <Route
+          path="/burmese/agreed_spelling"
+          component={AgreedSpellingBurmese}
+        />
+        <Route
+          path="/burmese/difficult_utterances"
+          component={DifficultUtterancesBurmese}
+        />
+        <Route path="/burmese/format" component={FormatBurmese} />
       </Switch>
     </Router>
   )
