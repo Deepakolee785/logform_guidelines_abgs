@@ -85,27 +85,27 @@ const Wrapper = ({ children }) => {
         { label: 'Multiple spellings ', path: '#multiple-spelling' },
       ],
     },
-    // {
-    //   label: 'Diffiicult Utterances',
-    //   path: '',
-    //   subMenus: [
-    //     { label: 'Overview', path: '/bangla/difficult_utterances' },
-    //     { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
-    //     {
-    //       label: 'Hesitations and trancations',
-    //       path: '#hesitations-and-truncations',
-    //     },
-    //     {
-    //       label: 'Background and foreground speech',
-    //       path: '#background-and-foreground-speech',
-    //     },
-    //     { label: 'Foreign Language', path: '#foreign-language' },
-    //     {
-    //       label: 'Accents ',
-    //       path: '/bangla/difficult_utterances#accents',
-    //     },
-    //   ],
-    // },
+    {
+      label: 'Diffiicult Utterances',
+      path: '',
+      subMenus: [
+        { label: 'Overview', path: '/bangla/difficult_utterances' },
+        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Hesitations and trancations',
+          path: '#hesitations-and-truncations',
+        },
+        {
+          label: 'Background and foreground speech',
+          path: '#background-and-foreground-speech',
+        },
+        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Accents ',
+          path: '/bangla/difficult_utterances#accents',
+        },
+      ],
+    },
   ]
   return (
     <MasterPage menuItems={menuItems} appTitle="bangla">
