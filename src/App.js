@@ -79,6 +79,18 @@ import {
   TranscriptionQualityBurmese,
 } from './Guidelines/Burmese'
 
+// Dutch
+
+import {
+  AgreedSpellingDutch,
+  DifficultUtterancesDutch,
+  FormatDutch,
+  GuidingPrinciplesDutch,
+  LongFormGenericRulesDutch,
+  PunctuationDutch,
+  TranscriptionQualityDutch,
+} from './Guidelines/Dutch'
+
 import Home from './Home'
 
 const App = () => {
@@ -261,6 +273,26 @@ const App = () => {
           component={DifficultUtterancesBurmese}
         />
         <Route path="/burmese/format" component={FormatBurmese} />
+        {/* Dutch routes */}
+        <Route
+          path="/dutch/guiding_principles"
+          component={GuidingPrinciplesDutch}
+        />
+        <Route
+          path="/dutch/longform_generic_rules"
+          component={LongFormGenericRulesDutch}
+        />
+        <Route
+          path="/dutch/transcription_quality"
+          component={TranscriptionQualityDutch}
+        />
+        <Route path="/dutch/punctuation" component={PunctuationDutch} />
+        <Route path="/dutch/agreed_spelling" component={AgreedSpellingDutch} />
+        <Route
+          path="/dutch/difficult_utterances"
+          component={DifficultUtterancesDutch}
+        />
+        <Route path="/dutch/format" component={FormatDutch} />
       </Switch>
     </Router>
   )
