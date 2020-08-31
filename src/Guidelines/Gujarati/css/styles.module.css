@@ -21,7 +21,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -39,7 +39,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -57,7 +57,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -75,7 +75,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -97,7 +97,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 16.6pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -115,7 +115,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 0.48pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -130,7 +130,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -152,7 +152,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 1.68pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -170,7 +170,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 84.2pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -188,7 +188,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 3.84pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -203,7 +203,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -225,7 +225,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 37pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -243,7 +243,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 316pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -261,7 +261,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 345pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -276,7 +276,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -294,7 +294,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -312,7 +312,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -334,7 +334,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 33.1pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -352,7 +352,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 231pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -370,7 +370,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 264pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -385,7 +385,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -407,7 +407,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 27.1pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -425,7 +425,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 251pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -443,7 +443,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 212pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -461,7 +461,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 211pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -476,7 +476,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -498,7 +498,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 114pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -516,7 +516,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 338pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -534,7 +534,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 380pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -552,7 +552,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 16.3pt;
   margin-top: 11.5pt;
   padding-bottom: 0;
@@ -570,7 +570,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 329pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -588,7 +588,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 361pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -603,7 +603,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -625,7 +625,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 166pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -643,7 +643,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 151pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -661,7 +661,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 185pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -676,7 +676,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -698,7 +698,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 185pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -716,7 +716,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 166pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -734,7 +734,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 207pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -749,7 +749,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -771,7 +771,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 11.5pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -789,7 +789,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 237pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -807,7 +807,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 269pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -825,7 +825,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 2.64pt;
   margin-top: 11.3pt;
   padding-bottom: 0;
@@ -843,7 +843,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 2.64pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -861,7 +861,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 358pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -879,7 +879,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 25pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -894,7 +894,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -912,7 +912,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -930,7 +930,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -952,7 +952,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 10.8pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -970,7 +970,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 173pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -988,7 +988,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 328pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1003,7 +1003,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -1025,7 +1025,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 92.9pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -1040,7 +1040,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -1062,7 +1062,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 12.2pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -1080,7 +1080,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 210pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -1098,7 +1098,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 236pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -1116,7 +1116,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 11.5pt;
   margin-top: 11.5pt;
   padding-bottom: 0;
@@ -1134,7 +1134,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 153pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -1152,7 +1152,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 216pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -1170,7 +1170,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 22.6pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1188,7 +1188,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 260pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1203,7 +1203,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -1225,7 +1225,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 5.04pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -1243,7 +1243,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 31.7pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1261,7 +1261,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 203pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -1279,7 +1279,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 178pt;
   margin-top: 11.3pt;
   padding-bottom: 0;
@@ -1297,7 +1297,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 285pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1315,7 +1315,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 317pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -1330,7 +1330,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -1352,7 +1352,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 15.1pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -1370,7 +1370,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 295pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -1388,7 +1388,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 310pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -1403,7 +1403,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -1421,7 +1421,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -1439,7 +1439,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -1461,7 +1461,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 5.52pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -1479,7 +1479,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 243pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1497,7 +1497,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 6pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1515,7 +1515,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 202pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -1533,7 +1533,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 14.4pt;
   margin-top: 11.5pt;
   padding-bottom: 0;
@@ -1551,7 +1551,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 98.6pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1569,7 +1569,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 190pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1587,7 +1587,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 2.88pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1605,7 +1605,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 154pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1623,7 +1623,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 213pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -1641,7 +1641,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 16.6pt;
   margin-top: 11.3pt;
   padding-bottom: 0;
@@ -1659,7 +1659,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 294pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -1677,7 +1677,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 380pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1695,7 +1695,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 131pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1713,7 +1713,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 270pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1731,7 +1731,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 342pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1749,7 +1749,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 104pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1767,7 +1767,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 244pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1785,7 +1785,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 318pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1803,7 +1803,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 42pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1821,7 +1821,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 3.84pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -1839,7 +1839,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 12.5pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1857,7 +1857,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 252pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -1872,7 +1872,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -1894,7 +1894,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 121pt;
   margin-top: 14.2pt;
   padding-bottom: 0;
@@ -1912,7 +1912,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 222pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -1930,7 +1930,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 159pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -1948,7 +1948,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 220pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -1966,7 +1966,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 11pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -1984,7 +1984,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 264pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -2002,7 +2002,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 352pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -2017,7 +2017,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -2039,7 +2039,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 53.3pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -2057,7 +2057,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 1.92pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -2075,7 +2075,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 249pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2093,7 +2093,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 294pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2108,7 +2108,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -2130,7 +2130,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 19.7pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -2148,7 +2148,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 63.4pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -2166,7 +2166,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 283pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -2181,7 +2181,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -2203,7 +2203,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 38.6pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -2221,7 +2221,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 132pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2239,7 +2239,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 206pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -2257,7 +2257,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 10.8pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -2275,7 +2275,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 78.2pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -2293,7 +2293,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 312pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -2311,7 +2311,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 24.7pt;
   margin-top: 11.5pt;
   padding-bottom: 0;
@@ -2329,7 +2329,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 262pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -2347,7 +2347,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 5.28pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -2365,7 +2365,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 221pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2383,7 +2383,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 336pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -2398,7 +2398,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -2420,7 +2420,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 128pt;
   margin-top: 13.9pt;
   padding-bottom: 0;
@@ -2438,7 +2438,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 299pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2456,7 +2456,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 210pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -2474,7 +2474,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 227pt;
   margin-top: 10.3pt;
   padding-bottom: 0;
@@ -2489,7 +2489,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -2797,7 +2797,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 70.1pt;
   margin-top: 24.5pt;
   padding-bottom: 0;
@@ -2816,7 +2816,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 2.4pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2835,7 +2835,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 22.3pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -2854,7 +2854,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 5.04pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -2925,7 +2925,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 58.8pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -2944,7 +2944,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 41pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2963,7 +2963,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 37.4pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -2982,7 +2982,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 210pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3001,7 +3001,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 239pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3020,7 +3020,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 121pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3039,7 +3039,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 27.6pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3058,7 +3058,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 188pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3077,7 +3077,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 76.6pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3096,7 +3096,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 8.88pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3115,7 +3115,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 29pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3203,7 +3203,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 307pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -3222,7 +3222,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 324pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3241,7 +3241,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 432pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3260,7 +3260,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 367pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3279,7 +3279,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 288pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3298,7 +3298,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 306pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3317,7 +3317,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 236pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3336,7 +3336,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 299pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3355,7 +3355,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 403pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3374,7 +3374,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 38.6pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3393,7 +3393,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 8.16pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3412,7 +3412,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 33.8pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3431,7 +3431,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 307pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3450,7 +3450,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 23.8pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3469,7 +3469,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 9.36pt;
   margin-top: 11.3pt;
   padding-bottom: 0;
@@ -3488,7 +3488,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 272pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3507,7 +3507,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 202pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3526,7 +3526,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 4.8pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3545,7 +3545,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 33.4pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3564,7 +3564,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 22.8pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3583,7 +3583,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 24.7pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -3599,7 +3599,7 @@
   border-bottom-width: 1pt;
   color: #03f;
   display: block;
-  font-size: 1.125em;
+  font-size: 1em;
   line-height: 1.2;
   margin-bottom: 0;
   margin-left: 0;
@@ -3621,7 +3621,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 6.24pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3640,7 +3640,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 1.92pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3659,7 +3659,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 346pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3678,7 +3678,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 137pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3697,7 +3697,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 0.72pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3716,7 +3716,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 32.6pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3735,7 +3735,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 19.4pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3754,7 +3754,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 1.92pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3773,7 +3773,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 306pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -3792,7 +3792,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 132pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3811,7 +3811,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 11.3pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -3919,7 +3919,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -4092,7 +4092,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -4210,7 +4210,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 20.8pt;
-  margin-right: -62.6pt;
+
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -4481,7 +4481,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 437pt;
   margin-top: 42.7pt;
   padding-bottom: 0;
@@ -4500,7 +4500,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 416pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -4519,7 +4519,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 415pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -4538,7 +4538,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 435pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -4557,7 +4557,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 435pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -4576,7 +4576,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 418pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -4595,7 +4595,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 432pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -4614,7 +4614,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 413pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -4633,7 +4633,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 433pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -4652,7 +4652,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 419pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -4671,7 +4671,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 429pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -5402,7 +5402,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -5531,7 +5531,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 452pt;
   margin-top: 42.7pt;
   padding-bottom: 0;
@@ -5550,7 +5550,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 455pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -5569,7 +5569,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 445pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -5588,7 +5588,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 418pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -5607,7 +5607,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 162pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -6769,7 +6769,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 288pt;
   margin-top: 43pt;
   padding-bottom: 0;
@@ -6788,7 +6788,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 72pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -6807,7 +6807,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 167pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -6826,7 +6826,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 247pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -6845,7 +6845,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 224pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -6864,7 +6864,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 269pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -6896,7 +6896,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -8036,7 +8036,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 275pt;
-  margin-right: -313pt;
+
   margin-top: 13.2pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -9117,7 +9117,6 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 275pt;
-  margin-right: -59pt;
   margin-top: 13.2pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -10211,7 +10210,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 196pt;
   margin-top: 42.7pt;
   padding-bottom: 0;
@@ -10230,7 +10229,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 198pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -10249,7 +10248,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 197pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10268,7 +10267,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: -5.84pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -10287,7 +10286,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 459pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -10307,7 +10306,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 461pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10326,7 +10325,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 456pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -10345,7 +10344,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 456pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -10364,7 +10363,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 448pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10383,7 +10382,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 452pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -10402,7 +10401,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 458pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -10421,7 +10420,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 452pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10440,7 +10439,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 445pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -10459,7 +10458,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 442pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10495,7 +10494,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 448pt;
   margin-top: 43pt;
   padding-bottom: 0;
@@ -10514,7 +10513,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 455pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10533,7 +10532,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 457pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -10552,7 +10551,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 452pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -10571,7 +10570,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 454pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -10607,7 +10606,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 461pt;
   margin-top: 43pt;
   padding-bottom: 0;
@@ -10626,7 +10625,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 451pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10645,7 +10644,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 461pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -10664,7 +10663,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 454pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -10683,7 +10682,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 201pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -11913,7 +11912,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 20.8pt;
-  margin-right: -62.6pt;
+
   margin-top: 12.5pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -12152,7 +12151,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 275pt;
-  margin-right: -314pt;
+
   margin-top: 13.2pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -12344,7 +12343,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 20.8pt;
-  margin-right: -50.6pt;
+
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -12364,7 +12363,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 275pt;
-  margin-right: -313pt;
+
   margin-top: 12.2pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -12396,7 +12395,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -12728,7 +12727,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 165pt;
   margin-top: 44.2pt;
   padding-bottom: 0;
@@ -12748,7 +12747,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 184pt;
   margin-top: 13pt;
   padding-bottom: 0;
@@ -12768,7 +12767,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 177pt;
   margin-top: 13.2pt;
   padding-bottom: 0;
@@ -12788,7 +12787,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 196pt;
   margin-top: 13pt;
   padding-bottom: 0;
@@ -12808,7 +12807,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 162pt;
   margin-top: 12.7pt;
   padding-bottom: 0;
@@ -12828,7 +12827,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 202pt;
   margin-top: 13.2pt;
   padding-bottom: 0;
@@ -12848,7 +12847,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 187pt;
   margin-top: 13pt;
   padding-bottom: 0;
@@ -12868,7 +12867,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 186pt;
   margin-top: 12.7pt;
   padding-bottom: 0;
@@ -13491,7 +13490,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 20.8pt;
-  margin-right: -58.6pt;
+
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -14384,7 +14383,7 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 6.24pt;
-  margin-right: -58.6pt;
+
   margin-top: 23pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -15110,7 +15109,7 @@
   border-bottom-style: none;
   border-bottom-width: 1pt;
   display: block;
-  font-size: 1.41667em;
+  font-size: 1em;
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 0;
@@ -15208,7 +15207,6 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 275pt;
-  margin-right: -310pt;
   margin-top: 6.96pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -15249,7 +15247,6 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 20.8pt;
-  margin-right: -59.5pt;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
@@ -15515,7 +15512,6 @@
   line-height: 1.15;
   margin-bottom: 0;
   margin-left: 275pt;
-  margin-right: -59pt;
   margin-top: 12.5pt;
   padding-bottom: 0;
   padding-left: 0;
@@ -15677,7 +15673,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 130pt;
   margin-top: 0;
   padding-bottom: 0;
@@ -15697,7 +15693,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 139pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -15716,7 +15712,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 128pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -15735,7 +15731,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 168pt;
   margin-top: 10.6pt;
   padding-bottom: 0;
@@ -15754,7 +15750,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 143pt;
   margin-top: 10.8pt;
   padding-bottom: 0;
@@ -15773,7 +15769,7 @@
   font-size: 0.75em;
   line-height: 1.15;
   margin-bottom: 0;
-  margin-left: -18pt;
+
   margin-right: 134pt;
   margin-top: 11pt;
   padding-bottom: 0;
@@ -16100,12 +16096,12 @@
 }
 .text_1 {
   background-color: transparent;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.2;
 }
 .text_2 {
   background-color: transparent;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-style: italic;
   line-height: 1.2;
 }
@@ -16234,7 +16230,7 @@
 .text_23 {
   background-color: transparent;
   color: #03f;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.2;
 }
 .text_24 {
@@ -16277,6 +16273,6 @@
 .text_30 {
   background-color: transparent;
   font-family: 'Mukta Vaani', serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   line-height: 1.2;
 }

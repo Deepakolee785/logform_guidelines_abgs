@@ -5,7 +5,6 @@ import PageContentHeader from '../../../Components/common/PageContentHeader'
 import RightContentNav from '../../../Components/layouts/RightContentNav'
 import Wrapper from '../Wrapper'
 import styles from '../css/styles.module.css'
-import CorrrectIncorrect from '../../../Components/common/CorrrectIncorrect'
 
 const LongFormGenericRules = () => {
   const classes = useStyles()
