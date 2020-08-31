@@ -91,6 +91,37 @@ import {
   TranscriptionQualityDutch,
 } from './Guidelines/Dutch'
 
+// Georgian
+import {
+  AgreedSpellingGeorgian,
+  DifficultUtterancesGeorgian,
+  FormatGeorgian,
+  GuidingPrinciplesGeorgian,
+  LongFormGenericRulesGeorgian,
+  PunctuationGeorgian,
+  TranscriptionQualityGeorgian,
+} from './Guidelines/Georgian'
+// Greek
+import {
+  AgreedSpellingGreek,
+  DifficultUtterancesGreek,
+  FormatGreek,
+  GuidingPrinciplesGreek,
+  LongFormGenericRulesGreek,
+  PunctuationGreek,
+  TranscriptionQualityGreek,
+} from './Guidelines/Greek'
+// Gujarati
+import {
+  AgreedSpellingGujarati,
+  DifficultUtterancesGujarati,
+  FormatGujarati,
+  GuidingPrinciplesGujarati,
+  LongFormGenericRulesGujarati,
+  PunctuationGujarati,
+  TranscriptionQualityGujarati,
+} from './Guidelines/Gujarati'
+
 import Home from './Home'
 
 const App = () => {
@@ -293,6 +324,72 @@ const App = () => {
           component={DifficultUtterancesDutch}
         />
         <Route path="/dutch/format" component={FormatDutch} />
+        {/* Georgian routes */}
+        <Route
+          path="/georgian/guiding_principles"
+          component={GuidingPrinciplesGeorgian}
+        />
+        <Route
+          path="/georgian/longform_generic_rules"
+          component={LongFormGenericRulesGeorgian}
+        />
+        <Route
+          path="/georgian/transcription_quality"
+          component={TranscriptionQualityGeorgian}
+        />
+        <Route path="/georgian/punctuation" component={PunctuationGeorgian} />
+        <Route
+          path="/georgian/agreed_spelling"
+          component={AgreedSpellingGeorgian}
+        />
+        <Route
+          path="/georgian/difficult_utterances"
+          component={DifficultUtterancesGeorgian}
+        />
+        <Route path="/georgian/format" component={FormatGeorgian} />
+        {/* Greek routes */}
+        <Route
+          path="/greek/guiding_principles"
+          component={GuidingPrinciplesGreek}
+        />
+        <Route
+          path="/greek/longform_generic_rules"
+          component={LongFormGenericRulesGreek}
+        />
+        <Route
+          path="/greek/transcription_quality"
+          component={TranscriptionQualityGreek}
+        />
+        <Route path="/greek/punctuation" component={PunctuationGreek} />
+        <Route path="/greek/agreed_spelling" component={AgreedSpellingGreek} />
+        <Route
+          path="/greek/difficult_utterances"
+          component={DifficultUtterancesGreek}
+        />
+        <Route path="/greek/format" component={FormatGreek} />
+        {/* Gujarati routes */}
+        <Route
+          path="/gujarati/guiding_principles"
+          component={GuidingPrinciplesGujarati}
+        />
+        <Route
+          path="/gujarati/longform_generic_rules"
+          component={LongFormGenericRulesGujarati}
+        />
+        <Route
+          path="/gujarati/transcription_quality"
+          component={TranscriptionQualityGujarati}
+        />
+        <Route path="/gujarati/punctuation" component={PunctuationGujarati} />
+        <Route
+          path="/gujarati/agreed_spelling"
+          component={AgreedSpellingGujarati}
+        />
+        <Route
+          path="/gujarati/difficult_utterances"
+          component={DifficultUtterancesGujarati}
+        />
+        <Route path="/gujarati/format" component={FormatGujarati} />
       </Switch>
     </Router>
   )
