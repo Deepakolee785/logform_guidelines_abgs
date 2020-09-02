@@ -179,6 +179,56 @@ import {
   PunctuationMacedonian,
   TranscriptionQualityMacedonian,
 } from './Guidelines/Macedonian'
+// Malay
+import {
+  AgreedSpellingMalay,
+  DifficultUtterancesMalay,
+  FormatMalay,
+  GuidingPrinciplesMalay,
+  LongFormGenericRulesMalay,
+  PunctuationMalay,
+  TranscriptionQualityMalay,
+} from './Guidelines/Malay'
+// Malayalam
+import {
+  AgreedSpellingMalayalam,
+  DifficultUtterancesMalayalam,
+  FormatMalayalam,
+  GuidingPrinciplesMalayalam,
+  LongFormGenericRulesMalayalam,
+  PunctuationMalayalam,
+  TranscriptionQualityMalayalam,
+} from './Guidelines/Malayalam'
+// Mandarin
+import {
+  AgreedSpellingMandarin,
+  DifficultUtterancesMandarin,
+  FormatMandarin,
+  GuidingPrinciplesMandarin,
+  LongFormGenericRulesMandarin,
+  PunctuationMandarin,
+  TranscriptionQualityMandarin,
+} from './Guidelines/Mandarin'
+// Marathi
+import {
+  AgreedSpellingMarathi,
+  DifficultUtterancesMarathi,
+  FormatMarathi,
+  GuidingPrinciplesMarathi,
+  LongFormGenericRulesMarathi,
+  PunctuationMarathi,
+  TranscriptionQualityMarathi,
+} from './Guidelines/Marathi'
+// Mongolian
+import {
+  AgreedSpellingMongolian,
+  DifficultUtterancesMongolian,
+  FormatMongolian,
+  GuidingPrinciplesMongolian,
+  LongFormGenericRulesMongolian,
+  PunctuationMongolian,
+  TranscriptionQualityMongolian,
+} from './Guidelines/Mongolian'
 
 import Home from './Home'
 
@@ -578,6 +628,118 @@ const App = () => {
           component={DifficultUtterancesMacedonian}
         /> */}
         <Route path="/macedonian/format" component={FormatMacedonian} />
+        {/* Malay routes */}
+        <Route
+          path="/malay/guiding_principles"
+          component={GuidingPrinciplesMalay}
+        />
+        <Route
+          path="/malay/longform_generic_rules"
+          component={LongFormGenericRulesMalay}
+        />
+        <Route
+          path="/malay/transcription_quality"
+          component={TranscriptionQualityMalay}
+        />
+        <Route path="/malay/punctuation" component={PunctuationMalay} />
+        <Route path="/malay/agreed_spelling" component={AgreedSpellingMalay} />
+        <Route
+          path="/malay/difficult_utterances"
+          component={DifficultUtterancesMalay}
+        />
+        <Route path="/malay/format" component={FormatMalay} />
+        {/* Malayalam routes */}
+        <Route
+          path="/malayalam/guiding_principles"
+          component={GuidingPrinciplesMalayalam}
+        />
+        <Route
+          path="/malayalam/longform_generic_rules"
+          component={LongFormGenericRulesMalayalam}
+        />
+        <Route
+          path="/malayalam/transcription_quality"
+          component={TranscriptionQualityMalayalam}
+        />
+        <Route path="/malayalam/punctuation" component={PunctuationMalayalam} />
+        <Route
+          path="/malayalam/agreed_spelling"
+          component={AgreedSpellingMalayalam}
+        />
+        <Route
+          path="/malayalam/difficult_utterances"
+          component={DifficultUtterancesMalayalam}
+        />
+        <Route path="/malayalam/format" component={FormatMalayalam} />
+        {/* Mandarin routes */}
+        <Route
+          path="/mandarin/guiding_principles"
+          component={GuidingPrinciplesMandarin}
+        />
+        <Route
+          path="/mandarin/longform_generic_rules"
+          component={LongFormGenericRulesMandarin}
+        />
+        <Route
+          path="/mandarin/transcription_quality"
+          component={TranscriptionQualityMandarin}
+        />
+        <Route path="/mandarin/punctuation" component={PunctuationMandarin} />
+        <Route
+          path="/mandarin/agreed_spelling"
+          component={AgreedSpellingMandarin}
+        />
+        <Route
+          path="/mandarin/difficult_utterances"
+          component={DifficultUtterancesMandarin}
+        />
+        <Route path="/mandarin/format" component={FormatMandarin} />
+        {/* Marathi routes */}
+        <Route
+          path="/marathi/guiding_principles"
+          component={GuidingPrinciplesMarathi}
+        />
+        <Route
+          path="/marathi/longform_generic_rules"
+          component={LongFormGenericRulesMarathi}
+        />
+        <Route
+          path="/marathi/transcription_quality"
+          component={TranscriptionQualityMarathi}
+        />
+        <Route path="/marathi/punctuation" component={PunctuationMarathi} />
+        <Route
+          path="/marathi/agreed_spelling"
+          component={AgreedSpellingMarathi}
+        />
+        <Route
+          path="/marathi/difficult_utterances"
+          component={DifficultUtterancesMarathi}
+        />
+        <Route path="/marathi/format" component={FormatMarathi} />
+        {/* Mongolian routes */}
+        <Route
+          path="/mongolian/guiding_principles"
+          component={GuidingPrinciplesMongolian}
+        />
+        <Route
+          path="/mongolian/longform_generic_rules"
+          component={LongFormGenericRulesMongolian}
+        />
+        <Route
+          path="/mongolian/transcription_quality"
+          component={TranscriptionQualityMongolian}
+        />
+        <Route path="/mongolian/punctuation" component={PunctuationMongolian} />
+        <Route
+          path="/mongolian/agreed_spelling"
+          component={AgreedSpellingMongolian}
+        />
+        <Route
+          path="/mongolian/difficult_utterances"
+          component={DifficultUtterancesMongolian}
+        />
+        <Route path="/mongolian/format" component={FormatMongolian} />
       </Switch>
     </Router>
   )
