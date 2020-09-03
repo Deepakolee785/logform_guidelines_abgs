@@ -279,6 +279,36 @@ import {
   PunctuationSlovene,
   TranscriptionQualitySlovene,
 } from './Guidelines/Slovene'
+// Sundanese
+import {
+  AgreedSpellingSundanese,
+  DifficultUtterancesSundanese,
+  FormatSundanese,
+  GuidingPrinciplesSundanese,
+  LongFormGenericRulesSundanese,
+  PunctuationSundanese,
+  TranscriptionQualitySundanese,
+} from './Guidelines/Sundanese'
+// Swahili
+import {
+  AgreedSpellingSwahili,
+  DifficultUtterancesSwahili,
+  FormatSwahili,
+  GuidingPrinciplesSwahili,
+  LongFormGenericRulesSwahili,
+  PunctuationSwahili,
+  TranscriptionQualitySwahili,
+} from './Guidelines/Swahili'
+// Swedish
+import {
+  AgreedSpellingSwedish,
+  DifficultUtterancesSwedish,
+  FormatSwedish,
+  GuidingPrinciplesSwedish,
+  LongFormGenericRulesSwedish,
+  PunctuationSwedish,
+  TranscriptionQualitySwedish,
+} from './Guidelines/Swedish'
 
 import Home from './Home'
 
@@ -905,6 +935,75 @@ const App = () => {
           component={DifficultUtterancesSlovene}
         />
         <Route path="/slovene/format" component={FormatSlovene} />
+        {/* Sundanese routes */}
+        <Route
+          path="/sundanese/guiding_principles"
+          component={GuidingPrinciplesSundanese}
+        />
+        <Route
+          path="/sundanese/longform_generic_rules"
+          component={LongFormGenericRulesSundanese}
+        />
+        <Route
+          path="/sundanese/transcription_quality"
+          component={TranscriptionQualitySundanese}
+        />
+        <Route path="/sundanese/punctuation" component={PunctuationSundanese} />
+        <Route
+          path="/sundanese/agreed_spelling"
+          component={AgreedSpellingSundanese}
+        />
+        <Route
+          path="/sundanese/difficult_utterances"
+          component={DifficultUtterancesSundanese}
+        />
+        <Route path="/sundanese/format" component={FormatSundanese} />
+        {/* Swahili routes */}
+        <Route
+          path="/swahili/guiding_principles"
+          component={GuidingPrinciplesSwahili}
+        />
+        <Route
+          path="/swahili/longform_generic_rules"
+          component={LongFormGenericRulesSwahili}
+        />
+        <Route
+          path="/swahili/transcription_quality"
+          component={TranscriptionQualitySwahili}
+        />
+        <Route path="/swahili/punctuation" component={PunctuationSwahili} />
+        <Route
+          path="/swahili/agreed_spelling"
+          component={AgreedSpellingSwahili}
+        />
+        <Route
+          path="/swahili/difficult_utterances"
+          component={DifficultUtterancesSwahili}
+        />
+        <Route path="/swahili/format" component={FormatSwahili} />
+        {/* Swedish routes */}
+        <Route
+          path="/swedish/guiding_principles"
+          component={GuidingPrinciplesSwedish}
+        />
+        <Route
+          path="/swedish/longform_generic_rules"
+          component={LongFormGenericRulesSwedish}
+        />
+        <Route
+          path="/swedish/transcription_quality"
+          component={TranscriptionQualitySwedish}
+        />
+        <Route path="/swedish/punctuation" component={PunctuationSwedish} />
+        <Route
+          path="/swedish/agreed_spelling"
+          component={AgreedSpellingSwedish}
+        />
+        <Route
+          path="/swedish/difficult_utterances"
+          component={DifficultUtterancesSwedish}
+        />
+        <Route path="/swedish/format" component={FormatSwedish} />
       </Switch>
     </Router>
   )
