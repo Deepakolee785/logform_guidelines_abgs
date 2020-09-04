@@ -4,7 +4,7 @@ import { Paper, Grid, Toolbar, Hidden } from '@material-ui/core'
 import PageContentHeader from '../../../Components/common/PageContentHeader'
 import RightContentNav from '../../../Components/layouts/RightContentNav'
 import Wrapper from '../Wrapper'
-import styles from '../css/styles.module.css'
+// import styles from '../css/styles.module.css'
 
 const TranscriptionQuality = () => {
   const classes = useStyles()
@@ -26,40 +26,42 @@ const TranscriptionQuality = () => {
             {/*  */}
             <PageContentHeader currentPage="longform Tamil" />
             <div className="content text">
-              <p className={styles.block_207}>Transcription quality</p>
-              <p className={styles.block_208}>
+              <p className={'large-heading'}>Transcription quality</p>
+              <p className={'text'}>
                 The following general rules must be obeyed at all times when
                 transcribing.
               </p>
-              <p className={styles.block_209}>Typo</p>
-              <p className={styles.block_210}>
-                Avoid making any typographical errors. Carefully check your work
-                before marking items as "complete".
-              </p>
-              <p className={styles.block_211}>
-                Include ending punctuation at the end of sentences, unless it
-                would contradict a rule in these guidelines.
-              </p>
-              <p className={styles.block_212}>
-                Transcribe what is actually spoken. Use context to help with
-                spelling and homophone disambiguation. Look up words if you are
-                unsure.
-              </p>
-              <p className={styles.block_213}>
-                Do not correct the grammar of the speakers in the audio.
-                Transcribe what they say.
-              </p>
-              <p className={styles.block_214}>
-                Do not transcribe words that the speaker does not say, unless it
-                would contradict a rule in these guidelines.
-              </p>
-              <p className={styles.block_215}>
-                Transcribe all words the speaker says, even if the speaker did
-                not mean to say them.
-              </p>
-              <p className={styles.block_216}>
-                Use only one space between words and sentences.
-              </p>
+              <div id="typo">
+                <p className={'heading'}>Typo</p>
+                <p className={'text'}>
+                  Avoid making any typographical errors. Carefully check your
+                  work before marking items as "complete".
+                </p>
+                <p className={'text'}>
+                  Include ending punctuation at the end of sentences, unless it
+                  would contradict a rule in these guidelines.
+                </p>
+                <p className={'text'}>
+                  Transcribe what is actually spoken. Use context to help with
+                  spelling and homophone disambiguation. Look up words if you
+                  are unsure.
+                </p>
+                <p className={'text'}>
+                  Do not correct the grammar of the speakers in the audio.
+                  Transcribe what they say.
+                </p>
+                <p className={'text'}>
+                  Do not transcribe words that the speaker does not say, unless
+                  it would contradict a rule in these guidelines.
+                </p>
+                <p className={'text'}>
+                  Transcribe all words the speaker says, even if the speaker did
+                  not mean to say them.
+                </p>
+                <p className={'text'}>
+                  Use only one space between words and sentences.
+                </p>
+              </div>
             </div>
           </Paper>
         </Grid>
