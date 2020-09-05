@@ -38,10 +38,10 @@ const Wrapper = ({ children }) => {
       subMenus: [
         { label: 'Overview', path: '/telugu/transcription_quality' },
         { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        // { label: 'Context error', path: '#context-error' },
+        // { label: 'Add or missing word', path: '#adding-missing-words' },
+        // { label: 'Subsitution', path: '#substitution' },
+        // { label: 'Spacing', path: '#spacing' },
       ],
     },
     {
