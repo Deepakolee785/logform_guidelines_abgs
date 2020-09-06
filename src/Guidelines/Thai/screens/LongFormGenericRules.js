@@ -26,278 +26,302 @@ const LongFormGenericRules = () => {
             {/*  */}
             <PageContentHeader currentPage="longform Thai" />
             <div className="content text">
-              <p className={styles.block_135}>Longform generic rules</p>
-              <p className={styles.block_136}>
+              <p className={'large-heading'}>Longform generic rules</p>
+              <p className={'text'}>
                 Follow the rules in this section for tagging and transcribing
                 speaker segments for longform audio. Transcribe ALL speech that
                 is heard, this includes pre recorded and synthesized speech. For
                 speech that is unintelligible, foreign, or singing, please refer
                 to the relevant section below.
               </p>
-              <p className={styles.block_137}>
-                Unintelligible or foreign or singing
-              </p>
-              <p className={styles.block_138}>
-                If you hear speech that is unintelligible or in a foreign
-                language, create a speaker segment that covers only the audio
-                range with that speech. Then choose either the Unintelligible or
-                Foreign Speech option in the Label drop-down of the Edit
-                Annotation window and then assign to the appropriate speaker.
-              </p>
-              <p className={styles.block_139}>
-                If the entire audio is unintelligible or in a foreign language,
-                create a speaker segment that covers the entire audio range and
-                select either the Unintelligible or Foreign Speech option in the
-                Label drop-down of the Edit Annotation window.
-              </p>
-              <p className={styles.block_140}>
-                If you hear audio that is singing, transcribe the lyrics, assign
-                to the appropriate speaker, and add the Singing label. If the
-                singing is in a foreign language, select the Foreign Speech
-                label.
-              </p>
-              <p className={styles.block_141}>Segmentation</p>
-              <p className={styles.block_142}>
-                If overlapping speech is occurring: the segment boundaries
-                should be accurate with at least 100ms precision.
-              </p>
-              <p className={styles.block_143}>
-                If overlapping speech is NOT occurring, the segment boundaries
-                do not have to be 100% precise but should start and end within 1
-                second from when the speaker begins/ends their speech. The
-                boundaries should not overlap with other speaker turns next to
-                the segment.
-              </p>
-              <p className={styles.block_144}>
-                Speaker turns should not contain pauses in speech that are
-                longer than 0.5 seconds. If a speaker does pause their speech
-                for longer than 0.5 seconds, end the speaker turn before the
-                pause then create a new turn for when the speaker resumes
-                talking.
-              </p>
-              <p className={styles.block_145}>
-                Speaker turns should not be longer than 30 seconds. If a single
-                speaker talks for more than 30 consecutive seconds without
-                taking a 0.5 second pause, then end the turn at the 30 second
-                mark and begin a new turn.
-              </p>
-              <p className={styles.block_146}>Speaker labeling</p>
-              <p className={styles.block_138}>
-                All speaker labels should be consistently formatted. Speaker
-                labels should always: be in all lowercase, be spelled correctly,
-                and should not contain underscores or hyphens. A validator
-                within the tool will prevent you from submitting incorrect
-                formats.
-              </p>
-              <p className={styles.block_147}>
-                <span className={styles.text_2}>C</span>
-                <span className={styles.text_3}>ORRECT</span>
-                <span className={styles.text_2}>: speaker 1 </span>
-              </p>
-              <p className={styles.block_148}>
-                <span className={styles.text_2}>I</span>
-                <span className={styles.text_3}>NCORRECT</span>
-                <span className={styles.text_2}>: Speaker 1 </span>
-              </p>
-              <p className={styles.block_149}>
-                <span className={styles.text_2}>C</span>
-                <span className={styles.text_3}>ORRECT</span>
-                <span className={styles.text_2}>: pre recorded speaker 1 </span>
-              </p>
-              <p className={styles.block_150}>
-                <span className={styles.text_2}>I</span>
-                <span className={styles.text_3}>NCORRECT</span>
-                <span className={styles.text_2}>: pre-recorded speaker_1 </span>
-              </p>
-              <p className={styles.block_151}>
-                <span className={styles.text_2}>C</span>
-                <span className={styles.text_3}>ORRECT</span>
-                <span className={styles.text_2}>: unidentifiable speaker </span>
-              </p>
-              <p className={styles.block_152}>
-                • 'speaker #' Used for different speakers in the audio. Includes
-                a number that corresponds to each different speaker.
-              </p>
-              <p className={styles.block_153}>
-                • 'pre recorded speaker #' Used when there is speech coming from
-                a machine. Includes a number that corresponds to each different
-                pre recorded speaker.
-              </p>
-              <p className={styles.block_154}>
-                • 'unidentifiable speaker' Used when you cannot identify who the
-                speaker is. Does not ever include numbers.
-              </p>
-              <p className={styles.block_155}>
-                • 'speaker Tom' Used when the name of a speaker becomes known.
-                The names of speakers should always be capitalized. You can use
-                first and last names. (Note: adding speaker names will be
-                allowed for some projects but not others. In tool validators
-                will indicate whether or not you can submit a speaker name.)
-              </p>
-              <p className={styles.block_156}>Pii</p>
-              <p className={styles.block_142}>
-                PII stands for Personally Identifiable Information. PII is
-                information that is not publicly available, but can help you or
-                Google identify an individual person.
-              </p>
-              <p className={styles.block_157}>
-                PII should never be transcribed. When PII is heard, create a new
-                speaker segment that captures the audio range of the PII speech.
-                Add the PII label and assign to the appropriate speaker. Do not
-                transcribe PII.
-              </p>
-              <p className={styles.block_158}>
-                See the below list for all valid PII items
-              </p>
-              <p className={styles.block_159}>• NAME: First and/or Last name</p>
-              <p className={styles.block_160}>• CREDIT_CARD_NUMBER</p>
-              <p className={styles.block_161}>• EMAIL</p>
-              <p className={styles.block_162}>• PHONE_NUMBER</p>
-              <p className={styles.block_163}>• SOCIAL_INSURANCE_NUMBER</p>
-              <p className={styles.block_164}>• DRIVER_LICENSE_NUMBER</p>
-              <p className={styles.block_165}>
-                • NATIONAL_HEALTH_SERVICE_NUMBER
-              </p>
-              <p className={styles.block_166}>• SOCIAL_SECURITY_NUMBER</p>
-              <p className={styles.block_167}>• PASSPORT</p>
-              <p className={styles.block_168}>
-                • TAX_FILE_NUMBER: A tax file number (TFN) is a unique
-                identifier issued by the Australian Taxation Office (ATO) to
-                each taxpaying entity
-              </p>
-              <p className={styles.block_169}>
-                • LOCATION_STREET: If the street name is heard, mark as PII.
-                Other locations such as State, City, County, zip code are all OK
-                to transcribe.
-              </p>
-              <p className={styles.block_170}>
-                • LOCATION_STREET_NUMBER: If the street number is heard, mark as
-                PII. Other locations such as State, City, County, zip code are
-                all OK to transcribe.
-              </p>
-              <p className={styles.block_171}>• MRN (medical record number)</p>
-              <p className={styles.block_172}>
-                • BANKERS_CUSIP_ID: CUSIP stands for Committee on Uniform
-                Securities Identification Procedures. A CUSIP number identifies
-                most financial instruments, including: stocks of all registered
-                U.S. and Canadian companies, commercial paper, and U.S.
-                government and municipal bonds.
-              </p>
-              <p className={styles.block_173}>
-                • BC_PHN: Each B.C. resident enrolled with the Medical Services
-                Plan (MSP) is given a unique lifetime identifier for health care
-                called a Personal Health Number (PHN)
-              </p>
-              <p className={styles.block_174}>
-                • OHIP: Ontario Health Insurance Plan
-              </p>
-              <p className={styles.block_175}>
-                • QUEBEC_HIN: Quebec Health Insurance Number
-              </p>
-              <p className={styles.block_168}>
-                • CNI NIR: The French national identity card (French: Carte
-                nationale d'identite or CNI) is an official identity document
-                consisting of a laminated plastic card bearing a photograph,
-                name and address.
-              </p>
-              <p className={styles.block_176}>
-                • IBAN_CODE: The International Bank Account Number (IBAN) is an
-                internationally agreed system of identifying bank accounts
-              </p>
-              <p className={styles.block_177}>
-                • SWIFT_CODE: A SWIFT code is an international bank code that
-                identifies particular banks worldwide. It's also known as a Bank
-                Identifier Code (BIC).
-              </p>
-              <p className={styles.block_178}>
-                • BANK_ROUTING_MICR: The numbers located on the bottom of a
-                check is called a MICR line. MICR means Magnetic Image Character
-                Recognition. The MICR line is made up of three sets of numbers.
-                The first set is called the ABA Bank Routing Number or routing
-                transit number (RTN)
-              </p>
-              <p className={styles.block_178}>
-                • DEA_NUMBER: A DEA number (DEA Registration Number) is an
-                identifier assigned to a health care provider (such as a
-                physician, optometrist, dentist, or veterinarian) by the United
-                States Drug Enforcement Administration
-              </p>
-              <p className={styles.block_153}>
-                • HEALTHCARE_NPI: A National Provider Identifier or NPI is a
-                unique 10-digit identification number issued to health care
-                providers in the United States by the Centers for Medicare and
-                Medicaid Services (CMS).
-              </p>
-              <p className={styles.block_179}>• MEDICARE_NUMBER</p>
-              <p className={styles.block_180}>
-                • NIE_NUMBER: The NIE is a tax identification number in Spain
-              </p>
-              <p className={styles.block_181}>
-                • CPF_NUMBER: The CPF (Cadastro de Pessoas Fisicas or Natural
-                Persons Register) is a number assigned by the Brazilian revenue
-                agency to both Brazilians and resident aliens who are subject to
-                taxes in Brazil
-              </p>
-              <p className={styles.block_176}>
-                • PAN_INDIVIDUAL: Permanent Account Number (PAN) is a code that
-                acts as an identification for individuals, families and
-                corporates (Indian or Foreign), especially those who pay Income
-                Tax
-              </p>
-              <p className={styles.block_177}>
-                • BSN_NUMBER: netherlands: The citizen service number (BSN) is a
-                unique personal number allocated to everyone registered in the
-                Personal Records Database (BRP).
-              </p>
-              <p className={styles.block_178}>
-                • ICD_CODE: International Statistical Classification of Diseases
-                and Related Health Problems (ICD), a medical classification list
-                by the World Health Organization (WHO). It contains codes for
-                diseases, signs and symptoms, abnormal findings, complaints,
-                social circumstances, and external causes of injury or diseases.
-              </p>
-              <p className={styles.block_182}>• FDA_CODE: Prescription drug</p>
-              <p className={styles.block_183}>
-                • NIF: Tax Identification Number in Spain
-                http://www.investinspain.org/guidetobusiness/en/2/art_2_3.html
-              </p>
-              <p className={styles.block_184}>• TAXPAYER_REFERENCE</p>
-              <p className={styles.block_172}>
-                • CURP_NUMBER: CURP is the abbreviation for Clave Unica de
-                Registro de Poblacion (translated into English as Unique
-                Population Registry Code or else as Personal ID Code Number). It
-                is a unique identity code for both citizens and residents of
-                Mexico.
-              </p>
-              <p className={styles.block_185}>
-                • RRN: Receiver Registration Number (RNN) is a 10-character
-                alphanumeric can be to a bank account, a credit/debit card,
-                mobile wallet, or home delivery.
-              </p>
-              <p className={styles.block_186}>
-                Information that does not fit the above PII rules should NOT be
-                considered PII. Some examples of things that are not PII are:
-              </p>
-              <p className={styles.block_187}>
-                <span className={styles.text_2}>C</span>
-                <span className={styles.text_3}>ORRECT</span>
-                <span className={styles.text_2}>
-                  : Commonly known names like Taylor Swift, Tom Hanks, Michael
-                  Jordan
-                </span>
-              </p>
-              <p className={styles.block_188}>
-                <span className={styles.text_2}>C</span>
-                <span className={styles.text_3}>ORRECT</span>
-                <span className={styles.text_2}>
-                  : Company or Business name, phone number, or address.
-                </span>
-              </p>
-              <p className={styles.block_189}>
-                <span className={styles.text_2}>C</span>
-                <span className={styles.text_3}>ORRECT</span>
-                <span className={styles.text_2}>: Pet names </span>
-              </p>
+              <div id="unintelligible-or-foreign-or-singing">
+                <p className={'heading'}>
+                  Unintelligible or foreign or singing
+                </p>
+                <p className={'text'}>
+                  If you hear speech that is unintelligible or in a foreign
+                  language, create a speaker segment that covers only the audio
+                  range with that speech. Then choose either the Unintelligible
+                  or Foreign Speech option in the Label drop-down of the Edit
+                  Annotation window and then assign to the appropriate speaker.
+                </p>
+                <p className={'text'}>
+                  If the entire audio is unintelligible or in a foreign
+                  language, create a speaker segment that covers the entire
+                  audio range and select either the Unintelligible or Foreign
+                  Speech option in the Label drop-down of the Edit Annotation
+                  window.
+                </p>
+                <p className={'text'}>
+                  If you hear audio that is singing, transcribe the lyrics,
+                  assign to the appropriate speaker, and add the Singing label.
+                  If the singing is in a foreign language, select the Foreign
+                  Speech label.
+                </p>
+              </div>
+              <div id="segmentation">
+                <p className={'heading'}>Segmentation</p>
+                <p className={'text'}>
+                  If overlapping speech is occurring: the segment boundaries
+                  should be accurate with at least 100ms precision.
+                </p>
+                <p className={'text'}>
+                  If overlapping speech is NOT occurring, the segment boundaries
+                  do not have to be 100% precise but should start and end within
+                  1 second from when the speaker begins/ends their speech. The
+                  boundaries should not overlap with other speaker turns next to
+                  the segment.
+                </p>
+                <p className={'text'}>
+                  Speaker turns should not contain pauses in speech that are
+                  longer than 0.5 seconds. If a speaker does pause their speech
+                  for longer than 0.5 seconds, end the speaker turn before the
+                  pause then create a new turn for when the speaker resumes
+                  talking.
+                </p>
+                <p className={styles.block_145}>
+                  Speaker turns should not be longer than 30 seconds. If a
+                  single speaker talks for more than 30 consecutive seconds
+                  without taking a 0.5 second pause, then end the turn at the 30
+                  second mark and begin a new turn.
+                </p>
+              </div>
+              <div id="speaker-labeling">
+                <p className={'heading'}>Speaker labeling</p>
+                <p className={'text'}>
+                  All speaker labels should be consistently formatted. Speaker
+                  labels should always: be in all lowercase, be spelled
+                  correctly, and should not contain underscores or hyphens. A
+                  validator within the tool will prevent you from submitting
+                  incorrect formats.
+                </p>
+                <p className={styles.block_147}>
+                  <span className={styles.text_2}>C</span>
+                  <span className={styles.text_3}>ORRECT</span>
+                  <span className={styles.text_2}>: speaker 1 </span>
+                </p>
+                <p className={styles.block_148}>
+                  <span className={styles.text_2}>I</span>
+                  <span className={styles.text_3}>NCORRECT</span>
+                  <span className={styles.text_2}>: Speaker 1 </span>
+                </p>
+                <p className={styles.block_149}>
+                  <span className={styles.text_2}>C</span>
+                  <span className={styles.text_3}>ORRECT</span>
+                  <span className={styles.text_2}>
+                    : pre recorded speaker 1{' '}
+                  </span>
+                </p>
+                <p className={styles.block_150}>
+                  <span className={styles.text_2}>I</span>
+                  <span className={styles.text_3}>NCORRECT</span>
+                  <span className={styles.text_2}>
+                    : pre-recorded speaker_1{' '}
+                  </span>
+                </p>
+                <p className={styles.block_151}>
+                  <span className={styles.text_2}>C</span>
+                  <span className={styles.text_3}>ORRECT</span>
+                  <span className={styles.text_2}>
+                    : unidentifiable speaker{' '}
+                  </span>
+                </p>
+                <p className={styles.block_152}>
+                  • 'speaker #' Used for different speakers in the audio.
+                  Includes a number that corresponds to each different speaker.
+                </p>
+                <p className={styles.block_153}>
+                  • 'pre recorded speaker #' Used when there is speech coming
+                  from a machine. Includes a number that corresponds to each
+                  different pre recorded speaker.
+                </p>
+                <p className={styles.block_154}>
+                  • 'unidentifiable speaker' Used when you cannot identify who
+                  the speaker is. Does not ever include numbers.
+                </p>
+                <p className={styles.block_155}>
+                  • 'speaker Tom' Used when the name of a speaker becomes known.
+                  The names of speakers should always be capitalized. You can
+                  use first and last names. (Note: adding speaker names will be
+                  allowed for some projects but not others. In tool validators
+                  will indicate whether or not you can submit a speaker name.)
+                </p>
+              </div>
+
+              <div id="pii">
+                <p className={'heading'}>Pii</p>
+                <p className={'text'}>
+                  PII stands for Personally Identifiable Information. PII is
+                  information that is not publicly available, but can help you
+                  or Google identify an individual person.
+                </p>
+                <p className={styles.block_157}>
+                  PII should never be transcribed. When PII is heard, create a
+                  new speaker segment that captures the audio range of the PII
+                  speech. Add the PII label and assign to the appropriate
+                  speaker. Do not transcribe PII.
+                </p>
+                <p className={styles.block_158}>
+                  See the below list for all valid PII items
+                </p>
+                <p className={styles.block_159}>
+                  • NAME: First and/or Last name
+                </p>
+                <p className={styles.block_160}>• CREDIT_CARD_NUMBER</p>
+                <p className={styles.block_161}>• EMAIL</p>
+                <p className={styles.block_162}>• PHONE_NUMBER</p>
+                <p className={styles.block_163}>• SOCIAL_INSURANCE_NUMBER</p>
+                <p className={styles.block_164}>• DRIVER_LICENSE_NUMBER</p>
+                <p className={styles.block_165}>
+                  • NATIONAL_HEALTH_SERVICE_NUMBER
+                </p>
+                <p className={styles.block_166}>• SOCIAL_SECURITY_NUMBER</p>
+                <p className={styles.block_167}>• PASSPORT</p>
+                <p className={styles.block_168}>
+                  • TAX_FILE_NUMBER: A tax file number (TFN) is a unique
+                  identifier issued by the Australian Taxation Office (ATO) to
+                  each taxpaying entity
+                </p>
+                <p className={styles.block_169}>
+                  • LOCATION_STREET: If the street name is heard, mark as PII.
+                  Other locations such as State, City, County, zip code are all
+                  OK to transcribe.
+                </p>
+                <p className={styles.block_170}>
+                  • LOCATION_STREET_NUMBER: If the street number is heard, mark
+                  as PII. Other locations such as State, City, County, zip code
+                  are all OK to transcribe.
+                </p>
+                <p className={styles.block_171}>
+                  • MRN (medical record number)
+                </p>
+                <p className={styles.block_172}>
+                  • BANKERS_CUSIP_ID: CUSIP stands for Committee on Uniform
+                  Securities Identification Procedures. A CUSIP number
+                  identifies most financial instruments, including: stocks of
+                  all registered U.S. and Canadian companies, commercial paper,
+                  and U.S. government and municipal bonds.
+                </p>
+                <p className={styles.block_173}>
+                  • BC_PHN: Each B.C. resident enrolled with the Medical
+                  Services Plan (MSP) is given a unique lifetime identifier for
+                  health care called a Personal Health Number (PHN)
+                </p>
+                <p className={styles.block_174}>
+                  • OHIP: Ontario Health Insurance Plan
+                </p>
+                <p className={styles.block_175}>
+                  • QUEBEC_HIN: Quebec Health Insurance Number
+                </p>
+                <p className={styles.block_168}>
+                  • CNI NIR: The French national identity card (French: Carte
+                  nationale d'identite or CNI) is an official identity document
+                  consisting of a laminated plastic card bearing a photograph,
+                  name and address.
+                </p>
+                <p className={styles.block_176}>
+                  • IBAN_CODE: The International Bank Account Number (IBAN) is
+                  an internationally agreed system of identifying bank accounts
+                </p>
+                <p className={styles.block_177}>
+                  • SWIFT_CODE: A SWIFT code is an international bank code that
+                  identifies particular banks worldwide. It's also known as a
+                  Bank Identifier Code (BIC).
+                </p>
+                <p className={styles.block_178}>
+                  • BANK_ROUTING_MICR: The numbers located on the bottom of a
+                  check is called a MICR line. MICR means Magnetic Image
+                  Character Recognition. The MICR line is made up of three sets
+                  of numbers. The first set is called the ABA Bank Routing
+                  Number or routing transit number (RTN)
+                </p>
+                <p className={styles.block_178}>
+                  • DEA_NUMBER: A DEA number (DEA Registration Number) is an
+                  identifier assigned to a health care provider (such as a
+                  physician, optometrist, dentist, or veterinarian) by the
+                  United States Drug Enforcement Administration
+                </p>
+                <p className={styles.block_153}>
+                  • HEALTHCARE_NPI: A National Provider Identifier or NPI is a
+                  unique 10-digit identification number issued to health care
+                  providers in the United States by the Centers for Medicare and
+                  Medicaid Services (CMS).
+                </p>
+                <p className={styles.block_179}>• MEDICARE_NUMBER</p>
+                <p className={styles.block_180}>
+                  • NIE_NUMBER: The NIE is a tax identification number in Spain
+                </p>
+                <p className={styles.block_181}>
+                  • CPF_NUMBER: The CPF (Cadastro de Pessoas Fisicas or Natural
+                  Persons Register) is a number assigned by the Brazilian
+                  revenue agency to both Brazilians and resident aliens who are
+                  subject to taxes in Brazil
+                </p>
+                <p className={styles.block_176}>
+                  • PAN_INDIVIDUAL: Permanent Account Number (PAN) is a code
+                  that acts as an identification for individuals, families and
+                  corporates (Indian or Foreign), especially those who pay
+                  Income Tax
+                </p>
+                <p className={styles.block_177}>
+                  • BSN_NUMBER: netherlands: The citizen service number (BSN) is
+                  a unique personal number allocated to everyone registered in
+                  the Personal Records Database (BRP).
+                </p>
+                <p className={styles.block_178}>
+                  • ICD_CODE: International Statistical Classification of
+                  Diseases and Related Health Problems (ICD), a medical
+                  classification list by the World Health Organization (WHO). It
+                  contains codes for diseases, signs and symptoms, abnormal
+                  findings, complaints, social circumstances, and external
+                  causes of injury or diseases.
+                </p>
+                <p className={styles.block_182}>
+                  • FDA_CODE: Prescription drug
+                </p>
+                <p className={styles.block_183}>
+                  • NIF: Tax Identification Number in Spain
+                  http://www.investinspain.org/guidetobusiness/en/2/art_2_3.html
+                </p>
+                <p className={styles.block_184}>• TAXPAYER_REFERENCE</p>
+                <p className={styles.block_172}>
+                  • CURP_NUMBER: CURP is the abbreviation for Clave Unica de
+                  Registro de Poblacion (translated into English as Unique
+                  Population Registry Code or else as Personal ID Code Number).
+                  It is a unique identity code for both citizens and residents
+                  of Mexico.
+                </p>
+                <p className={styles.block_185}>
+                  • RRN: Receiver Registration Number (RNN) is a 10-character
+                  alphanumeric can be to a bank account, a credit/debit card,
+                  mobile wallet, or home delivery.
+                </p>
+                <p className={styles.block_186}>
+                  Information that does not fit the above PII rules should NOT
+                  be considered PII. Some examples of things that are not PII
+                  are:
+                </p>
+                <p className={styles.block_187}>
+                  <span className={styles.text_2}>C</span>
+                  <span className={styles.text_3}>ORRECT</span>
+                  <span className={styles.text_2}>
+                    : Commonly known names like Taylor Swift, Tom Hanks, Michael
+                    Jordan
+                  </span>
+                </p>
+                <p className={styles.block_188}>
+                  <span className={styles.text_2}>C</span>
+                  <span className={styles.text_3}>ORRECT</span>
+                  <span className={styles.text_2}>
+                    : Company or Business name, phone number, or address.
+                  </span>
+                </p>
+                <p className={styles.block_189}>
+                  <span className={styles.text_2}>C</span>
+                  <span className={styles.text_3}>ORRECT</span>
+                  <span className={styles.text_2}>: Pet names </span>
+                </p>
+              </div>
             </div>
           </Paper>
         </Grid>

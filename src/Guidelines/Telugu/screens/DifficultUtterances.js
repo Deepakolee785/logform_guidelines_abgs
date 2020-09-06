@@ -26,7 +26,7 @@ const DifficultUtterances = () => {
             {/*  */}
             <PageContentHeader currentPage="longform Telugu" />
             <div className="content text">
-              <p className={'heading'}>Difficult utterances</p>
+              <p className={'large-heading'}>Difficult utterances</p>
               <p className={'text'}>
                 This section covers how to transcribe audio samples that include
                 non human speech, laughter, filler words, profanity, false

@@ -29,7 +29,7 @@ const RightContentNav = ({ title, headingIds }) => {
                   }}
                   href={`#${_id}`}
                 >
-                  {_id.replace('-', ' ')}
+                  {_id.replace(/-/gi, ' ')}
                 </a>
               </li>
             ))}
