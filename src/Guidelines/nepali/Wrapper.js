@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/nepali/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/nepali/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/nepali/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/nepali/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/nepali/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/nepali/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,22 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/nepali/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/nepali/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/nepali/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/nepali/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/nepali/punctuation#colon-and-quotation',
+        },
+        { label: 'Other symbols ', path: '/nepali/punctuation#other-symbols' },
+        {
+          label: 'Spoken punctuation',
+          path: '/nepali/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +83,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/nepali/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/nepali/format#number' },
+        { label: 'Date and time', path: '/nepali/format#currency-and-unit' },
+        { label: 'Commas', path: '/nepali/format#date-and-time' },
+        { label: 'Address', path: '/nepali/format#address' },
+        { label: 'Web', path: '/nepali/format#web' },
+        { label: 'Abbreviation', path: '/nepali/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +96,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/nepali/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/nepali/agreed_spelling#spelling-out',
+        },
+        { label: 'Proper names', path: '/nepali/agreed_spelling#interjection' },
+        {
+          label: 'Brand and Product',
+          path: '/nepali/agreed_spelling#brand-and-product',
+        },
+        { label: 'Media title ', path: '/nepali/agreed_spelling#media-title' },
+        {
+          label: 'Multiple spellings ',
+          path: '/nepali/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +117,22 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/nepali/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/nepali/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/nepali/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path: '/nepali/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/nepali/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/nepali/difficult_utterances#accents',

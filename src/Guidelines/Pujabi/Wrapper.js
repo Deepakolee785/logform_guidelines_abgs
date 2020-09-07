@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/pujabi/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/pujabi/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/pujabi/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/pujabi/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/pujabi/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/pujabi/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,22 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/pujabi/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/pujabi/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/pujabi/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/pujabi/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/pujabi/punctuation#colon-and-quotation',
+        },
+        { label: 'Other symbols ', path: '/pujabi/punctuation#other-symbols' },
+        {
+          label: 'Spoken punctuation',
+          path: '/pujabi/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +83,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/pujabi/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/pujabi/format#number' },
+        { label: 'Date and time', path: '/pujabi/format#currency-and-unit' },
+        { label: 'Commas', path: '/pujabi/format#date-and-time' },
+        { label: 'Address', path: '/pujabi/format#address' },
+        { label: 'Web', path: '/pujabi/format#web' },
+        { label: 'Abbreviation', path: '/pujabi/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +96,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/pujabi/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/pujabi/agreed_spelling#spelling-out',
+        },
+        { label: 'Proper names', path: '/pujabi/agreed_spelling#interjection' },
+        {
+          label: 'Brand and Product',
+          path: '/pujabi/agreed_spelling#brand-and-product',
+        },
+        { label: 'Media title ', path: '/pujabi/agreed_spelling#media-title' },
+        {
+          label: 'Multiple spellings ',
+          path: '/pujabi/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     // {
@@ -108,7 +135,7 @@ const Wrapper = ({ children }) => {
     // },
   ]
   return (
-    <MasterPage menuItems={menuItems} appTitle="pujabi">
+    <MasterPage menuItems={menuItems} appTitle="Punjabi">
       {children}
     </MasterPage>
   )

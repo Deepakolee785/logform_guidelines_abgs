@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/italian/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/italian/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/italian/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/italian/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/italian/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/italian/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,22 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/italian/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/italian/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/italian/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/italian/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/italian/punctuation#colon-and-quotation',
+        },
+        { label: 'Other symbols ', path: '/italian/punctuation#other-symbols' },
+        {
+          label: 'Spoken punctuation',
+          path: '/italian/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +83,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/italian/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/italian/format#number' },
+        { label: 'Date and time', path: '/italian/format#currency-and-unit' },
+        { label: 'Commas', path: '/italian/format#date-and-time' },
+        { label: 'Address', path: '/italian/format#address' },
+        { label: 'Web', path: '/italian/format#web' },
+        { label: 'Abbreviation', path: '/italian/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +96,23 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/italian/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/italian/agreed_spelling#spelling-out',
+        },
+        {
+          label: 'Proper names',
+          path: '/italian/agreed_spelling#interjection',
+        },
+        {
+          label: 'Brand and Product',
+          path: '/italian/agreed_spelling#brand-and-product',
+        },
+        { label: 'Media title ', path: '/italian/agreed_spelling#media-title' },
+        {
+          label: 'Multiple spellings ',
+          path: '/italian/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +120,23 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/italian/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/italian/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/italian/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path:
+            '/italian/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/italian/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/italian/difficult_utterances#accents',

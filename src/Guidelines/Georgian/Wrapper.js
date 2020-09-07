@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/georgian/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/georgian/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/georgian/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/georgian/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/georgian/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/georgian/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,25 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/georgian/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/georgian/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/georgian/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/georgian/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/georgian/punctuation#colon-and-quotation',
+        },
+        {
+          label: 'Other symbols ',
+          path: '/georgian/punctuation#other-symbols',
+        },
+        {
+          label: 'Spoken punctuation',
+          path: '/georgian/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +86,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/georgian/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/georgian/format#number' },
+        { label: 'Date and time', path: '/georgian/format#currency-and-unit' },
+        { label: 'Commas', path: '/georgian/format#date-and-time' },
+        { label: 'Address', path: '/georgian/format#address' },
+        { label: 'Web', path: '/georgian/format#web' },
+        { label: 'Abbreviation', path: '/georgian/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +99,26 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/georgian/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/georgian/agreed_spelling#spelling-out',
+        },
+        {
+          label: 'Proper names',
+          path: '/georgian/agreed_spelling#interjection',
+        },
+        {
+          label: 'Brand and Product',
+          path: '/georgian/agreed_spelling#brand-and-product',
+        },
+        {
+          label: 'Media title ',
+          path: '/georgian/agreed_spelling#media-title',
+        },
+        {
+          label: 'Multiple spellings ',
+          path: '/georgian/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +126,23 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/georgian/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/georgian/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/georgian/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path:
+            '/georgian/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/georgian/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/georgian/difficult_utterances#accents',

@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/urdu/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/urdu/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/urdu/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/urdu/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/urdu/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/urdu/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,22 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/urdu/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/urdu/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/urdu/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/urdu/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/urdu/punctuation#colon-and-quotation',
+        },
+        { label: 'Other symbols ', path: '/urdu/punctuation#other-symbols' },
+        {
+          label: 'Spoken punctuation',
+          path: '/urdu/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +83,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/urdu/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/urdu/format#number' },
+        { label: 'Date and time', path: '/urdu/format#currency-and-unit' },
+        { label: 'Commas', path: '/urdu/format#date-and-time' },
+        { label: 'Address', path: '/urdu/format#address' },
+        { label: 'Web', path: '/urdu/format#web' },
+        { label: 'Abbreviation', path: '/urdu/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +96,17 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/urdu/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        { label: 'Spelling out ', path: '/urdu/agreed_spelling#spelling-out' },
+        { label: 'Proper names', path: '/urdu/agreed_spelling#interjection' },
+        {
+          label: 'Brand and Product',
+          path: '/urdu/agreed_spelling#brand-and-product',
+        },
+        { label: 'Media title ', path: '/urdu/agreed_spelling#media-title' },
+        {
+          label: 'Multiple spellings ',
+          path: '/urdu/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +114,22 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/urdu/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/urdu/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/urdu/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path: '/urdu/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/urdu/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/urdu/difficult_utterances#accents',

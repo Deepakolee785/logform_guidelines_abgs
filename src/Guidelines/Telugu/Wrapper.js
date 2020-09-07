@@ -37,7 +37,7 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/telugu/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
+        { label: 'Typo', path: '/telugu/transcription_quality#typo' },
         // { label: 'Context error', path: '#context-error' },
         // { label: 'Add or missing word', path: '#adding-missing-words' },
         // { label: 'Subsitution', path: '#substitution' },
@@ -51,13 +51,22 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/telugu/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/telugu/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/telugu/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/telugu/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/telugu/punctuation#colon-and-quotation',
+        },
+        { label: 'Other symbols ', path: '/telugu/punctuation#other-symbols' },
+        {
+          label: 'Spoken punctuation',
+          path: '/telugu/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +74,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/telugu/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/telugu/format#number' },
+        { label: 'Date and time', path: '/telugu/format#currency-and-unit' },
+        { label: 'Commas', path: '/telugu/format#date-and-time' },
+        { label: 'Address', path: '/telugu/format#address' },
+        { label: 'Web', path: '/telugu/format#web' },
+        { label: 'Abbreviation', path: '/telugu/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +87,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/telugu/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/telugu/agreed_spelling#spelling-out',
+        },
+        { label: 'Proper names', path: '/telugu/agreed_spelling#interjection' },
+        {
+          label: 'Brand and Product',
+          path: '/telugu/agreed_spelling#brand-and-product',
+        },
+        { label: 'Media title ', path: '/telugu/agreed_spelling#media-title' },
+        {
+          label: 'Multiple spellings ',
+          path: '/telugu/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +108,22 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/telugu/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/telugu/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/telugu/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path: '/telugu/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/telugu/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/telugu/difficult_utterances#accents',

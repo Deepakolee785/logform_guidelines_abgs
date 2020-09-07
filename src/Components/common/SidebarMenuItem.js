@@ -5,6 +5,7 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown'
 import { Collapse } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 import { NavLink } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 const SidebarMenuItem = ({ label, path, subMenus }) => {
   const classes = useStyles()
@@ -47,13 +48,13 @@ const SidebarMenuItem = ({ label, path, subMenus }) => {
             subMenus.map((item, index) => {
               if (item.path.includes('#')) {
                 return (
-                  <a
-                    href={item.path}
+                  <HashLink
+                    to={item.path}
                     key={index}
                     style={{ color: 'inherit', textDecoration: 'none' }}
                   >
                     <li className={classes.sidebarSubMenu}>{item.label}</li>
-                  </a>
+                  </HashLink>
                 )
               }
               return (

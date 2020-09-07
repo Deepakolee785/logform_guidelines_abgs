@@ -38,10 +38,19 @@ const Wrapper = ({ children }) => {
       subMenus: [
         { label: 'Overview', path: '/russian/transcription_quality' },
         { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        {
+          label: 'Context error',
+          path: '/russian/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/russian/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/russian/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/russian/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,22 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/russian/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/russian/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/russian/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/russian/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/russian/punctuation#colon-and-quotation',
+        },
+        { label: 'Other symbols ', path: '/russian/punctuation#other-symbols' },
+        {
+          label: 'Spoken punctuation',
+          path: '/russian/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -66,11 +84,11 @@ const Wrapper = ({ children }) => {
       subMenus: [
         { label: 'Overview', path: '/russian/format' },
         { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Date and time', path: '/russian/format#currency-and-unit' },
+        { label: 'Commas', path: '/russian/format#date-and-time' },
+        { label: 'Address', path: '/russian/format#address' },
+        { label: 'Web', path: '/russian/format#web' },
+        { label: 'Abbreviation', path: '/russian/format#abbreviation' },
       ],
     },
     // {

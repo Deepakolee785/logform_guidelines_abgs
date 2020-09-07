@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/mongolian/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/mongolian/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/mongolian/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/mongolian/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/mongolian/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/mongolian/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,25 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/mongolian/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/mongolian/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/mongolian/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/mongolian/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/mongolian/punctuation#colon-and-quotation',
+        },
+        {
+          label: 'Other symbols ',
+          path: '/mongolian/punctuation#other-symbols',
+        },
+        {
+          label: 'Spoken punctuation',
+          path: '/mongolian/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +86,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/mongolian/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/mongolian/format#number' },
+        { label: 'Date and time', path: '/mongolian/format#currency-and-unit' },
+        { label: 'Commas', path: '/mongolian/format#date-and-time' },
+        { label: 'Address', path: '/mongolian/format#address' },
+        { label: 'Web', path: '/mongolian/format#web' },
+        { label: 'Abbreviation', path: '/mongolian/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +99,26 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/mongolian/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/mongolian/agreed_spelling#spelling-out',
+        },
+        {
+          label: 'Proper names',
+          path: '/mongolian/agreed_spelling#interjection',
+        },
+        {
+          label: 'Brand and Product',
+          path: '/mongolian/agreed_spelling#brand-and-product',
+        },
+        {
+          label: 'Media title ',
+          path: '/mongolian/agreed_spelling#media-title',
+        },
+        {
+          label: 'Multiple spellings ',
+          path: '/mongolian/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +126,23 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/mongolian/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/mongolian/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/mongolian/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path:
+            '/mongolian/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/mongolian/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/mongolian/difficult_utterances#accents',

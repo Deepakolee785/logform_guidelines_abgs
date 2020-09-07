@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/vietnamese/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/vietnamese/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/vietnamese/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/vietnamese/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/vietnamese/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/vietnamese/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,25 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/vietnamese/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/vietnamese/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/vietnamese/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/vietnamese/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/vietnamese/punctuation#colon-and-quotation',
+        },
+        {
+          label: 'Other symbols ',
+          path: '/vietnamese/punctuation#other-symbols',
+        },
+        {
+          label: 'Spoken punctuation',
+          path: '/vietnamese/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +86,15 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/vietnamese/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/vietnamese/format#number' },
+        {
+          label: 'Date and time',
+          path: '/vietnamese/format#currency-and-unit',
+        },
+        { label: 'Commas', path: '/vietnamese/format#date-and-time' },
+        { label: 'Address', path: '/vietnamese/format#address' },
+        { label: 'Web', path: '/vietnamese/format#web' },
+        { label: 'Abbreviation', path: '/vietnamese/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +102,26 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/vietnamese/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/vietnamese/agreed_spelling#spelling-out',
+        },
+        {
+          label: 'Proper names',
+          path: '/vietnamese/agreed_spelling#interjection',
+        },
+        {
+          label: 'Brand and Product',
+          path: '/vietnamese/agreed_spelling#brand-and-product',
+        },
+        {
+          label: 'Media title ',
+          path: '/vietnamese/agreed_spelling#media-title',
+        },
+        {
+          label: 'Multiple spellings ',
+          path: '/vietnamese/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +129,23 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/vietnamese/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/vietnamese/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/vietnamese/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path:
+            '/vietnamese/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/vietnamese/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/vietnamese/difficult_utterances#accents',

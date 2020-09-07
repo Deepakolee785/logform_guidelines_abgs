@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/thai/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/thai/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/thai/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/thai/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/thai/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/thai/transcription_quality#spacing' },
       ],
     },
     // {

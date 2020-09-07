@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/malay/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/malay/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/malay/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/malay/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/malay/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/malay/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,22 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/malay/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/malay/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/malay/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/malay/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/malay/punctuation#colon-and-quotation',
+        },
+        { label: 'Other symbols ', path: '/malay/punctuation#other-symbols' },
+        {
+          label: 'Spoken punctuation',
+          path: '/malay/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,12 +83,12 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/malay/format' },
-        { label: 'Number', path: '#number' },
-        { label: 'Date and time', path: '#currency-and-unit' },
-        { label: 'Commas', path: '#date-and-time' },
-        { label: 'Address', path: '#address' },
-        { label: 'Web', path: '#web' },
-        { label: 'Abbreviation', path: '#abbreviation' },
+        { label: 'Number', path: '/malay/format#number' },
+        { label: 'Date and time', path: '/malay/format#currency-and-unit' },
+        { label: 'Commas', path: '/malay/format#date-and-time' },
+        { label: 'Address', path: '/malay/format#address' },
+        { label: 'Web', path: '/malay/format#web' },
+        { label: 'Abbreviation', path: '/malay/format#abbreviation' },
       ],
     },
     {
@@ -78,11 +96,17 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/malay/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        { label: 'Spelling out ', path: '/malay/agreed_spelling#spelling-out' },
+        { label: 'Proper names', path: '/malay/agreed_spelling#interjection' },
+        {
+          label: 'Brand and Product',
+          path: '/malay/agreed_spelling#brand-and-product',
+        },
+        { label: 'Media title ', path: '/malay/agreed_spelling#media-title' },
+        {
+          label: 'Multiple spellings ',
+          path: '/malay/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     {
@@ -90,16 +114,22 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/malay/difficult_utterances' },
-        { label: 'Skipping a prompt', path: '#skipping-a-prompt' },
+        {
+          label: 'Skipping a prompt',
+          path: '/malay/difficult_utterances#skipping-a-prompt',
+        },
         {
           label: 'Hesitations and trancations',
-          path: '#hesitations-and-truncations',
+          path: '/malay/difficult_utterances#hesitations-and-truncations',
         },
         {
           label: 'Background and foreground speech',
-          path: '#background-and-foreground-speech',
+          path: '/malay/difficult_utterances#background-and-foreground-speech',
         },
-        { label: 'Foreign Language', path: '#foreign-language' },
+        {
+          label: 'Foreign Language',
+          path: '/malay/difficult_utterances#foreign-language',
+        },
         {
           label: 'Accents ',
           path: '/malay/difficult_utterances#accents',

@@ -37,11 +37,20 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/macedonian/transcription_quality' },
-        { label: 'Typo', path: '#typo' },
-        { label: 'Context error', path: '#context-error' },
-        { label: 'Add or missing word', path: '#adding-missing-words' },
-        { label: 'Subsitution', path: '#substitution' },
-        { label: 'Spacing', path: '#spacing' },
+        { label: 'Typo', path: '/macedonian/transcription_quality#typo' },
+        {
+          label: 'Context error',
+          path: '/macedonian/transcription_quality#context-error',
+        },
+        {
+          label: 'Add or missing word',
+          path: '/macedonian/transcription_quality#adding-missing-words',
+        },
+        {
+          label: 'Subsitution',
+          path: '/macedonian/transcription_quality#substitution',
+        },
+        { label: 'Spacing', path: '/macedonian/transcription_quality#spacing' },
       ],
     },
     {
@@ -51,13 +60,25 @@ const Wrapper = ({ children }) => {
         { label: 'Overview', path: '/macedonian/punctuation' },
         {
           label: 'Fragment versus sentence',
-          path: '#fragment-vrsus-sentences',
+          path: '/macedonian/punctuation#fragment-vrsus-sentences',
         },
-        { label: 'Commas', path: '#commas' },
-        { label: 'Innotation marks', path: '#intonation-marks' },
-        { label: 'Colon and cotation', path: '#colon-and-quotation' },
-        { label: 'Other symbols ', path: '#other-symbols' },
-        { label: 'Spoken punctuation', path: '#spoken-punctuation' },
+        { label: 'Commas', path: '/macedonian/punctuation#commas' },
+        {
+          label: 'Innotation marks',
+          path: '/macedonian/punctuation#intonation-marks',
+        },
+        {
+          label: 'Colon and cotation',
+          path: '/macedonian/punctuation#colon-and-quotation',
+        },
+        {
+          label: 'Other symbols ',
+          path: '/macedonian/punctuation#other-symbols',
+        },
+        {
+          label: 'Spoken punctuation',
+          path: '/macedonian/punctuation#spoken-punctuation',
+        },
       ],
     },
     {
@@ -65,7 +86,7 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/macedonian/format' },
-        { label: 'Number', path: '#number' },
+        { label: 'Number', path: '/macedonian/format#number' },
         // { label: 'Date and time', path: '#currency-and-unit' },
         // { label: 'Commas', path: '#date-and-time' },
         // { label: 'Address', path: '#address' },
@@ -78,11 +99,26 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/macedonian/agreed_spelling' },
-        { label: 'Spelling out ', path: '#spelling-out' },
-        { label: 'Proper names', path: '#interjection' },
-        { label: 'Brand and Product', path: '#brand-and-product' },
-        { label: 'Media title ', path: '#media-title' },
-        { label: 'Multiple spellings ', path: '#multiple-spelling' },
+        {
+          label: 'Spelling out ',
+          path: '/macedonian/agreed_spelling#spelling-out',
+        },
+        {
+          label: 'Proper names',
+          path: '/macedonian/agreed_spelling#interjection',
+        },
+        {
+          label: 'Brand and Product',
+          path: '/macedonian/agreed_spelling#brand-and-product',
+        },
+        {
+          label: 'Media title ',
+          path: '/macedonian/agreed_spelling#media-title',
+        },
+        {
+          label: 'Multiple spellings ',
+          path: '/macedonian/agreed_spelling#multiple-spelling',
+        },
       ],
     },
     // {
