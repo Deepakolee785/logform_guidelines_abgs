@@ -129,14 +129,14 @@ const Wrapper = ({ children }) => {
           label: 'Background and foreground speech',
           path: '/bangla/difficult_utterances#background-and-foreground-speech',
         },
-        {
-          label: 'Foreign Language',
-          path: '/bangla/difficult_utterances#foreign-language',
-        },
-        {
-          label: 'Accents ',
-          path: '/bangla/difficult_utterances#accents',
-        },
+        // {
+        //   label: 'Foreign Language',
+        //   path: '/bangla/difficult_utterances#foreign-language',
+        // },
+        // {
+        //   label: 'Accents ',
+        //   path: '/bangla/difficult_utterances#accents',
+        // },
       ],
     },
   ]

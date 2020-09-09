@@ -13,8 +13,8 @@ const DifficultUtterances = () => {
     'skipping-a-prompt',
     'hesitations-and-truncations',
     'background-and-foreground-speech',
-    'foreign-language',
-    'accents',
+    // 'foreign-language',
+    // 'accents',
   ]
 
   return (
