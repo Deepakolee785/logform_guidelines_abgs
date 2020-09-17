@@ -126,8 +126,8 @@ const GuidingPrinciplesUK_UA = () => {
                 </p>
                 <p className={styles.block_31}>Example Audio: mcdonald</p>
                 <p className={styles.block_32}>Correct: MacDonald</p>
-                <p className={styles.block_33}>Brand and product</p>
-                <p className={styles.block_34}>
+                <p className={'bold-heading'}>Brand and product</p>
+                <p className={'text'}>
                   Format brand and company names as officially formatted
                 </p>
                 <p className={styles.block_35}>

@@ -109,7 +109,7 @@ code {
 #aggreed-spelling,
 #punctuation,
 #format,
-#fragment-vrsus-sentences,
+#fragment-versus-sentences,
 #commas,
 #intonation-marks,
 #colon-and-quotation,
@@ -124,7 +124,7 @@ code {
 #segmentation,
 #speaker-labeling,
 #audio-labels,
-#pii,
+#PII,
 #number,
 #currency-and-unit,
 #date-and-time,
@@ -155,10 +155,10 @@ code {
 }
 
 /* Active sidebar menu */
-.activeSidebarMenu {
+/* .activeSidebarMenu {
   color: #1967d2 !important;
   font-weight: 600;
-}
+} */
 
 .version-link {
   text-decoration: none;

@@ -90,6 +90,17 @@ import {
   PunctuationDutch,
   TranscriptionQualityDutch,
 } from './Guidelines/Dutch'
+// Filipino
+
+import {
+  AgreedSpellingFilipino,
+  DifficultUtterancesFilipino,
+  FormatFilipino,
+  GuidingPrinciplesFilipino,
+  LongFormGenericRulesFilipino,
+  PunctuationFilipino,
+  TranscriptionQualityFilipino,
+} from './Guidelines/Filipino'
 
 // Georgian
 import {
@@ -158,6 +169,16 @@ import {
   LongFormGenericRulesJapnese,
 } from './Guidelines/Japanese'
 
+// Javanese
+import {
+  AgreedSpellingJavanese,
+  DifficultUtterancesJavanese,
+  FormatJavanese,
+  GuidingPrinciplesJavanese,
+  LongFormGenericRulesJavanese,
+  PunctuationJavanese,
+  TranscriptionQualityJavanese,
+} from './Guidelines/Javanese'
 // Kannada
 import {
   AgreedSpellingKannada,
@@ -592,6 +613,29 @@ const App = () => {
           component={DifficultUtterancesDutch}
         />
         <Route path="/dutch/format" component={FormatDutch} />
+        {/* Filipino routes */}
+        <Route
+          path="/filipino/guiding_principles"
+          component={GuidingPrinciplesFilipino}
+        />
+        <Route
+          path="/filipino/longform_generic_rules"
+          component={LongFormGenericRulesFilipino}
+        />
+        <Route
+          path="/filipino/transcription_quality"
+          component={TranscriptionQualityFilipino}
+        />
+        <Route path="/filipino/punctuation" component={PunctuationFilipino} />
+        <Route
+          path="/filipino/agreed_spelling"
+          component={AgreedSpellingFilipino}
+        />
+        <Route
+          path="/filipino/difficult_utterances"
+          component={DifficultUtterancesFilipino}
+        />
+        <Route path="/filipino/format" component={FormatFilipino} />
         {/* Georgian routes */}
         <Route
           path="/georgian/guiding_principles"
@@ -736,6 +780,29 @@ const App = () => {
           path="/japanese/longform_generic_rules"
           component={LongFormGenericRulesJapnese}
         />
+        {/* Javanese routes */}
+        <Route
+          path="/javanese/guiding_principles"
+          component={GuidingPrinciplesJavanese}
+        />
+        <Route
+          path="/javanese/longform_generic_rules"
+          component={LongFormGenericRulesJavanese}
+        />
+        <Route
+          path="/javanese/transcription_quality"
+          component={TranscriptionQualityJavanese}
+        />
+        <Route path="/javanese/punctuation" component={PunctuationJavanese} />
+        <Route
+          path="/javanese/agreed_spelling"
+          component={AgreedSpellingJavanese}
+        />
+        <Route
+          path="/javanese/difficult_utterances"
+          component={DifficultUtterancesJavanese}
+        />
+        <Route path="/javanese/format" component={FormatJavanese} />
         {/* Kannada routes */}
         <Route
           path="/kannada/guiding_principles"

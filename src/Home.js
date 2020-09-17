@@ -19,6 +19,7 @@ const Home = () => {
       <Link to="/belarusian/guiding_principles">Belarusian</Link>
       <Link to="/burmese/guiding_principles">Burmese</Link>
       <Link to="/dutch/guiding_principles">Dutch</Link>
+      <Link to="/filipino/guiding_principles">Filipino</Link>
       <Link to="/georgian/guiding_principles">Georgian</Link>
       <Link to="/greek/guiding_principles">Greek</Link>
       <Link to="/gujarati/guiding_principles">Gujarati</Link>
@@ -26,6 +27,7 @@ const Home = () => {
       <Link to="/indonesian/guiding_principles">Indonesian</Link>
       <Link to="/italian/guiding_principles">Italian</Link>
       <Link to="/japanese/guiding_principles">Japnsese</Link>
+      <Link to="/javanese/guiding_principles">Javanese</Link>
       <Link to="/kannada/guiding_principles">Kannada</Link>
       <Link to="/korean/guiding_principles">Korean</Link>
       <Link to="/macedonian/guiding_principles">Macedonian</Link>
