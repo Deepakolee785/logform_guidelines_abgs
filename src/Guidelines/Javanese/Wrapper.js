@@ -105,7 +105,7 @@ const Wrapper = ({ children }) => {
         },
         {
           label: 'Proper names',
-          path: '/javanese/agreed_spelling#interjection',
+          path: '/javanese/agreed_spelling#proper-names',
         },
         {
           label: 'Brand and Product',
