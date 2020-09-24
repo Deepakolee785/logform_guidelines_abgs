@@ -18,8 +18,14 @@ const Home = () => {
       <Link to="/bangla/guiding_principles">Bangla</Link>
       <Link to="/belarusian/guiding_principles">Belarusian</Link>
       <Link to="/burmese/guiding_principles">Burmese</Link>
+      <Link to="/croatian/guiding_principles">Croatian</Link>
+      <Link to="/danish/guiding_principles">Danish</Link>
+      <Link to="/dutch/guiding_principles">Dutch</Link>
+      <Link to="/englishKE/guiding_principles">EnglishKE</Link>
+      <Link to="/englishUK/guiding_principles">EnglishUK</Link>
       <Link to="/dutch/guiding_principles">Dutch</Link>
       <Link to="/filipino/guiding_principles">Filipino</Link>
+      <Link to="/french/guiding_principles">French</Link>
       <Link to="/georgian/guiding_principles">Georgian</Link>
       <Link to="/greek/guiding_principles">Greek</Link>
       <Link to="/gujarati/guiding_principles">Gujarati</Link>
@@ -37,10 +43,12 @@ const Home = () => {
       <Link to="/marathi/guiding_principles">Marathi</Link>
       <Link to="/mongolian/guiding_principles">Mongolian</Link>
       <Link to="/noreweign/guiding_principles">Noreweign</Link>
+      <Link to="/polish/guiding_principles">Polish</Link>
       <Link to="/pujabi/guiding_principles">Pujabi</Link>
       <Link to="/russian/guiding_principles">Russian</Link>
       <Link to="/slovak/guiding_principles">Slovak</Link>
       <Link to="/slovene/guiding_principles">Slovene</Link>
+      <Link to="/spanish/guiding_principles">Spanish</Link>
       <Link to="/sundanese/guiding_principles">Sundanese</Link>
       <Link to="/swahili/guiding_principles">Swahili</Link>
       <Link to="/swedish/guiding_principles">Swedish</Link>

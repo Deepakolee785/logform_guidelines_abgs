@@ -78,6 +78,28 @@ import {
   PunctuationBurmese,
   TranscriptionQualityBurmese,
 } from './Guidelines/Burmese'
+// Croatian
+
+import {
+  AgreedSpellingCroatian,
+  DifficultUtterancesCroatian,
+  FormatCroatian,
+  GuidingPrinciplesCroatian,
+  LongFormGenericRulesCroatian,
+  PunctuationCroatian,
+  TranscriptionQualityCroatian,
+} from './Guidelines/Croatian'
+// Danish
+
+import {
+  AgreedSpellingDanish,
+  DifficultUtterancesDanish,
+  FormatDanish,
+  GuidingPrinciplesDanish,
+  LongFormGenericRulesDanish,
+  PunctuationDanish,
+  TranscriptionQualityDanish,
+} from './Guidelines/Danish'
 
 // Dutch
 
@@ -90,6 +112,28 @@ import {
   PunctuationDutch,
   TranscriptionQualityDutch,
 } from './Guidelines/Dutch'
+// EnglishKE
+
+import {
+  AgreedSpellingEnglishKE,
+  DifficultUtterancesEnglishKE,
+  FormatEnglishKE,
+  GuidingPrinciplesEnglishKE,
+  LongFormGenericRulesEnglishKE,
+  PunctuationEnglishKE,
+  TranscriptionQualityEnglishKE,
+} from './Guidelines/EnglishKE'
+// EnglishUK
+
+import {
+  AgreedSpellingEnglishUK,
+  DifficultUtterancesEnglishUK,
+  FormatEnglishUK,
+  GuidingPrinciplesEnglishUK,
+  LongFormGenericRulesEnglishUK,
+  PunctuationEnglishUK,
+  TranscriptionQualityEnglishUK,
+} from './Guidelines/EnglishUK'
 // Filipino
 
 import {
@@ -101,6 +145,17 @@ import {
   PunctuationFilipino,
   TranscriptionQualityFilipino,
 } from './Guidelines/Filipino'
+// French
+
+import {
+  AgreedSpellingFrench,
+  DifficultUtterancesFrench,
+  FormatFrench,
+  GuidingPrinciplesFrench,
+  LongFormGenericRulesFrench,
+  PunctuationFrench,
+  TranscriptionQualityFrench,
+} from './Guidelines/French'
 
 // Georgian
 import {
@@ -270,6 +325,16 @@ import {
   PunctuationNoreweign,
   TranscriptionQualityNoreweign,
 } from './Guidelines/Noreweign'
+// Polish
+import {
+  AgreedSpellingPolish,
+  DifficultUtterancesPolish,
+  FormatPolish,
+  GuidingPrinciplesPolish,
+  LongFormGenericRulesPolish,
+  PunctuationPolish,
+  TranscriptionQualityPolish,
+} from './Guidelines/Polish'
 // Pujabi
 import {
   AgreedSpellingPujabi,
@@ -310,6 +375,16 @@ import {
   PunctuationSlovene,
   TranscriptionQualitySlovene,
 } from './Guidelines/Slovene'
+// Spanish
+import {
+  AgreedSpellingSpanish,
+  DifficultUtterancesSpanish,
+  FormatSpanish,
+  GuidingPrinciplesSpanish,
+  LongFormGenericRulesSpanish,
+  PunctuationSpanish,
+  TranscriptionQualitySpanish,
+} from './Guidelines/Spanish'
 // Sundanese
 import {
   AgreedSpellingSundanese,
@@ -593,6 +668,52 @@ const App = () => {
           component={DifficultUtterancesBurmese}
         />
         <Route path="/burmese/format" component={FormatBurmese} />
+        {/* Croatian routes */}
+        <Route
+          path="/croatian/guiding_principles"
+          component={GuidingPrinciplesCroatian}
+        />
+        <Route
+          path="/croatian/longform_generic_rules"
+          component={LongFormGenericRulesCroatian}
+        />
+        <Route
+          path="/croatian/transcription_quality"
+          component={TranscriptionQualityCroatian}
+        />
+        <Route path="/croatian/punctuation" component={PunctuationCroatian} />
+        <Route
+          path="/croatian/agreed_spelling"
+          component={AgreedSpellingCroatian}
+        />
+        <Route
+          path="/croatian/difficult_utterances"
+          component={DifficultUtterancesCroatian}
+        />
+        <Route path="/croatian/format" component={FormatCroatian} />
+        {/* Danish routes */}
+        <Route
+          path="/danish/guiding_principles"
+          component={GuidingPrinciplesDanish}
+        />
+        <Route
+          path="/danish/longform_generic_rules"
+          component={LongFormGenericRulesDanish}
+        />
+        <Route
+          path="/danish/transcription_quality"
+          component={TranscriptionQualityDanish}
+        />
+        <Route path="/danish/punctuation" component={PunctuationDanish} />
+        <Route
+          path="/danish/agreed_spelling"
+          component={AgreedSpellingDanish}
+        />
+        <Route
+          path="/danish/difficult_utterances"
+          component={DifficultUtterancesDanish}
+        />
+        <Route path="/danish/format" component={FormatDanish} />
         {/* Dutch routes */}
         <Route
           path="/dutch/guiding_principles"
@@ -613,6 +734,52 @@ const App = () => {
           component={DifficultUtterancesDutch}
         />
         <Route path="/dutch/format" component={FormatDutch} />
+        {/* EnglishKE routes */}
+        <Route
+          path="/englishKE/guiding_principles"
+          component={GuidingPrinciplesEnglishKE}
+        />
+        <Route
+          path="/englishKE/longform_generic_rules"
+          component={LongFormGenericRulesEnglishKE}
+        />
+        <Route
+          path="/englishKE/transcription_quality"
+          component={TranscriptionQualityEnglishKE}
+        />
+        <Route path="/englishKE/punctuation" component={PunctuationEnglishKE} />
+        <Route
+          path="/englishKE/agreed_spelling"
+          component={AgreedSpellingEnglishKE}
+        />
+        <Route
+          path="/englishKE/difficult_utterances"
+          component={DifficultUtterancesEnglishKE}
+        />
+        <Route path="/englishKE/format" component={FormatEnglishKE} />
+        {/* EnglishUK routes */}
+        <Route
+          path="/englishUK/guiding_principles"
+          component={GuidingPrinciplesEnglishUK}
+        />
+        <Route
+          path="/englishUK/longform_generic_rules"
+          component={LongFormGenericRulesEnglishUK}
+        />
+        <Route
+          path="/englishUK/transcription_quality"
+          component={TranscriptionQualityEnglishUK}
+        />
+        <Route path="/englishUK/punctuation" component={PunctuationEnglishUK} />
+        <Route
+          path="/englishUK/agreed_spelling"
+          component={AgreedSpellingEnglishUK}
+        />
+        <Route
+          path="/englishUK/difficult_utterances"
+          component={DifficultUtterancesEnglishUK}
+        />
+        <Route path="/englishUK/format" component={FormatEnglishUK} />
         {/* Filipino routes */}
         <Route
           path="/filipino/guiding_principles"
@@ -636,6 +803,29 @@ const App = () => {
           component={DifficultUtterancesFilipino}
         />
         <Route path="/filipino/format" component={FormatFilipino} />
+        {/* French routes */}
+        <Route
+          path="/french/guiding_principles"
+          component={GuidingPrinciplesFrench}
+        />
+        <Route
+          path="/french/longform_generic_rules"
+          component={LongFormGenericRulesFrench}
+        />
+        <Route
+          path="/french/transcription_quality"
+          component={TranscriptionQualityFrench}
+        />
+        <Route path="/french/punctuation" component={PunctuationFrench} />
+        <Route
+          path="/french/agreed_spelling"
+          component={AgreedSpellingFrench}
+        />
+        <Route
+          path="/french/difficult_utterances"
+          component={DifficultUtterancesFrench}
+        />
+        <Route path="/french/format" component={FormatFrench} />
         {/* Georgian routes */}
         <Route
           path="/georgian/guiding_principles"
@@ -1010,6 +1200,29 @@ const App = () => {
           component={DifficultUtterancesNoreweign}
         />
         <Route path="/noreweign/format" component={FormatNoreweign} />
+        {/* Polish routes */}
+        <Route
+          path="/polish/guiding_principles"
+          component={GuidingPrinciplesPolish}
+        />
+        <Route
+          path="/polish/longform_generic_rules"
+          component={LongFormGenericRulesPolish}
+        />
+        <Route
+          path="/polish/transcription_quality"
+          component={TranscriptionQualityPolish}
+        />
+        <Route path="/polish/punctuation" component={PunctuationPolish} />
+        <Route
+          path="/polish/agreed_spelling"
+          component={AgreedSpellingPolish}
+        />
+        <Route
+          path="/polish/difficult_utterances"
+          component={DifficultUtterancesPolish}
+        />
+        <Route path="/polish/format" component={FormatPolish} />
         {/* Pujabi routes */}
         <Route
           path="/pujabi/guiding_principles"
@@ -1102,6 +1315,29 @@ const App = () => {
           component={DifficultUtterancesSlovene}
         />
         <Route path="/slovene/format" component={FormatSlovene} />
+        {/* Spanish routes */}
+        <Route
+          path="/spanish/guiding_principles"
+          component={GuidingPrinciplesSpanish}
+        />
+        <Route
+          path="/spanish/longform_generic_rules"
+          component={LongFormGenericRulesSpanish}
+        />
+        <Route
+          path="/spanish/transcription_quality"
+          component={TranscriptionQualitySpanish}
+        />
+        <Route path="/spanish/punctuation" component={PunctuationSpanish} />
+        <Route
+          path="/spanish/agreed_spelling"
+          component={AgreedSpellingSpanish}
+        />
+        <Route
+          path="/spanish/difficult_utterances"
+          component={DifficultUtterancesSpanish}
+        />
+        <Route path="/spanish/format" component={FormatSpanish} />
         {/* Sundanese routes */}
         <Route
           path="/sundanese/guiding_principles"
