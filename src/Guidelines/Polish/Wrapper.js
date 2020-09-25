@@ -126,10 +126,10 @@ const Wrapper = ({ children }) => {
       path: '',
       subMenus: [
         { label: 'Overview', path: '/polish/difficult_utterances' },
-        {
-          label: 'Skipping a prompt',
-          path: '/polish/difficult_utterances#skipping-a-prompt',
-        },
+        // {
+        //   label: 'Skipping a prompt',
+        //   path: '/polish/difficult_utterances#skipping-a-prompt',
+        // },
         {
           label: 'Hesitations and trancations',
           path: '#hesitations-and-truncations',
